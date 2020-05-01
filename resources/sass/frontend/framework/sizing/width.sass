@@ -1,0 +1,11 @@
+@import "../../../bootstrap"
+
+@each $width in $sizing
+    +breakpoints(w-#{$width})
+        width: #{$width * $step}
+
++breakpoints(w-screen)
+    width: 100vh
+
++breakpoints(w-full)
+    width: 100%

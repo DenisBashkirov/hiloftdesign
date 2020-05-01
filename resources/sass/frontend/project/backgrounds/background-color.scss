@@ -1,0 +1,8 @@
+@import "../../../bootstrap";
+@import "../../colors";
+
+@each $name, $color in $colors-map {
+    .bg\:#{$name} {
+        background-color: $color;
+    }
+}

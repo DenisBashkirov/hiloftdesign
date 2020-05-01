@@ -1,0 +1,8 @@
+@import "../../../bootstrap"
+
+$colors: (white, #fff), (black, #151A1C)
+
+@each $name, $color in $colors
+    +breakpoints(text-#{$name})
+        color: #{$color}
+

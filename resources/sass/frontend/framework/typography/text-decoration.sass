@@ -1,0 +1,5 @@
+@import "../../../bootstrap"
+
+@each $name, $decor in (underline, underline), (no-underline, none), (line-through, line-through)
+    +breakpoints(#{$name})
+        text-decoration: #{$decor}
