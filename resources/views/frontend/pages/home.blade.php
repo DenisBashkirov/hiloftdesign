@@ -13,7 +13,9 @@
         <div class="xs-sm:container-fluid xs-sm:mt-6">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="pop-styles-card swiper-slide"></div>
+                    <img class="pop-styles-card swiper-slide" src="{{ asset('img/design-styles/sample.jpg') }}">
+                    <img class="pop-styles-card swiper-slide" src="{{ asset('img/design-styles/sample.jpg') }}">
+                    <img class="pop-styles-card swiper-slide" src="{{ asset('img/design-styles/sample.jpg') }}">
                     <div class="pop-styles-card swiper-slide"></div>
                     <div class="pop-styles-card swiper-slide"></div>
                 </div>

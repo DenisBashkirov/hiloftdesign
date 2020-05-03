@@ -87616,7 +87616,8 @@ p {
   align-items: center !important;
   justify-content: center !important;
   background-color: #fff !important;
-  border-radius: 50% !important; }
+  border-radius: 50% !important;
+  color: #3E4345 !important; }
   .swiper-button:after {
     content: none !important; }
   @media (max-width: 767px) {

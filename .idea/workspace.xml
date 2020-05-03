@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c0b2069-8ad8-4bd2-aaaf-6122bea3c421" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/js/frontend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/frontend/project/cards/pop-styles-card.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/frontend/project/swiper/swiper-button.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/frontend/project/swiper/swiper-pagination-bullet.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/frontend/project/swiper/swiper-pagination.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/frontend/project/swiper/swiper-wrapper.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/frontend/project/text/font-family.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/frontend/sources/scripts.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/frontend.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/frontend.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/frontend/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/frontend/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/frontend/base.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/frontend/base.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/frontend/project/text/text-color.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/frontend/project/text/text-color.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/layouts/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/frontend/project/swiper/swiper-button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/frontend/project/swiper/swiper-button.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/pages/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/sections/title-screen.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/sections/title-screen.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +189,7 @@
       <workItem from="1587978382625" duration="9942000" />
       <workItem from="1587990309606" duration="9834000" />
       <workItem from="1588360563908" duration="801000" />
-      <workItem from="1588513723598" duration="5665000" />
+      <workItem from="1588513723598" duration="6350000" />
     </task>
     <servers />
   </component>
