@@ -7,11 +7,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="{{ asset('css/frontend.css') }}">
     <link rel="stylesheet" href="{{ asset('fonts/icons/style.css') }}">
+    @include('frontend.sources.styles')
 </head>
 <body>
 
 @include('frontend.sections.header')
 @yield('main_content')
 
+@include('frontend.sources.scripts')
 </body>
 </html>

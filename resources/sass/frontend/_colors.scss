@@ -1,13 +1,18 @@
 $black-100: #000;
 $black-90: #151A1C;
+$grey-80: #5E6366;
+$grey-30: #C6CACC;
 $golden-100: #EFB458;
 $golden-90: #ECBA78;
 $golden-60: #F4D5AC;
 
 $colors-map:
-        (black-100, $black-100),
-        (black-90, $black-90),
+    (black-100, $black-100),
+    (black-90, $black-90),
 
-        (golden-100, $golden-100),
-        (golden-90, $golden-90),
-        (golden-60, $golden-60)
+    (grey-80, $grey-80),
+    (grey-30, $grey-30),
+
+    (golden-100, $golden-100),
+    (golden-90, $golden-90),
+    (golden-60, $golden-60)
