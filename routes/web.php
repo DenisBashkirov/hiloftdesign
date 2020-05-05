@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\NavMenuItem;
+use Illuminate\Support\Facades\Schema;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,7 +18,9 @@ use App\NavMenuItem;
 
 
 Route::namespace('Frontend')->group(function () {
-    foreach (NavMenuItem::all() as $nav_item) {
-        Route::get($nav_item->uri, ['uses' => 'FrontendOutputController@' . $nav_item->route, 'as' => $nav_item->route]);
+    if(Schema::hasTable('nav_menu_items')) {
+        foreach (NavMenuItem::all() as $nav_item) {
+            Route::get($nav_item->uri, ['uses' => 'FrontendOutputController@' . $nav_item->route, 'as' => $nav_item->route]);
+        }
     }
 });
