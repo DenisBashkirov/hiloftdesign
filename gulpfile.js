@@ -12,6 +12,7 @@ const rjs = require('gulp-requirejs');
 const browserSync = require('browser-sync').create();
 const imagemin = require('gulp-imagemin');
 const webp = require('gulp-webp');
+const uncss = require('gulp-uncss');
 
 
 sass.compiler = require('node-sass');
@@ -160,6 +161,15 @@ gulp.task('watch-img', function () {
         gulp.series('img', 'webp')
     )
 
+});
+
+
+gulp.task('compile-css', function () {
+    return gulp.src('./public/css/frontend.min.css')
+        .pipe(uncss({
+            html: ['http://hiloftdesign/']
+        }))
+        .pipe(gulp.dest('./public/css'));
 });
 
 
