@@ -42,7 +42,8 @@ table {
   border-spacing: 0; }
 
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  position: relative; }
 
 html, body {
   width: 100vw;
@@ -87584,6 +87585,15 @@ p {
 /* */
 /* CONTAINERS */
 /* */
+.button-white-solid {
+  background-color: #fff;
+  color: #151A1C; }
+  .button-white-solid:hover {
+    background-color: #F1F3F4; }
+
+/* */
+/* CONTAINERS */
+/* */
 .button {
   display: inline-flex;
   flex-direction: row;
@@ -87595,16 +87605,6 @@ p {
   border-radius: 1.25rem;
   font-weight: bold;
   transition: all 0.2s; }
-
-/* */
-/* CONTAINERS */
-/* */
-.pop-styles-card {
-  background-color: #F4D5AC; }
-  @media (max-width: 374px) {
-    .pop-styles-card {
-      width: 270px !important;
-      height: 360px !important; } }
 
 /* */
 /* CONTAINERS */
@@ -87634,7 +87634,7 @@ p {
 /* CONTAINERS */
 /* */
 .swiper-pagination-bullet {
-  background-color: #C6CACC !important;
+  background-color: #babec0 !important;
   opacity: 1 !important; }
   @media (max-width: 767px) {
     .swiper-pagination-bullet {
@@ -87885,6 +87885,41 @@ p {
   @media (min-width: 1200px) {
     .bg\:title-screen--home {
       background-image: url("../img/backgrounds/title-screen/home.jpg"); } }
+
+/* */
+/* CONTAINERS */
+/* */
+.pop-styles-card {
+  background-color: #F4D5AC;
+  overflow: hidden;
+  transition: all 0.2s; }
+  @media (max-width: 767px) {
+    .pop-styles-card {
+      width: 270px !important;
+      height: 351px !important; } }
+  @media (min-width: 768px) {
+    .pop-styles-card {
+      width: 270px !important;
+      height: 351px !important; } }
+  @media (min-width: 1200px) {
+    .pop-styles-card {
+      width: calc(100vw / 5 - 8px) !important;
+      height: calc((100vw / 5 - 8px) * 1.3) !important; } }
+  .pop-styles-card img {
+    transition: all 0.2s; }
+  .pop-styles-card:hover img {
+    transform: scale(1.1); }
+  .pop-styles-card .overlay {
+    transition: all 0.2s;
+    opacity: 0; }
+  .pop-styles-card:hover .overlay {
+    opacity: 1; }
+
+/* */
+/* CONTAINERS */
+/* */
+.pop-styles-card__overlay {
+  background-color: rgba(62, 67, 69, 0.85); }
 
 /* */
 /* CONTAINERS */
@@ -89999,7 +90034,7 @@ p {
   background-color: #5E6366; }
 
 .bg\:grey-30 {
-  background-color: #C6CACC; }
+  background-color: #babec0; }
 
 .bg\:golden-100 {
   background-color: #EFB458; }

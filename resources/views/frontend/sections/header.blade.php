@@ -1,7 +1,7 @@
 <header class="text-white absolute flex flex-center justify-between z-5 w-full top-0 xs-sm:px-4 xs-sm:py-3 md:px-6 md:py-5 lg:py-5 lg:px-6 xl:px-8 xl:py-6">
 
-    <a href="{{ route('home') }}">
-        <picture class="md-lg:flex-order-2">
+    <a class="md-lg:flex-order-2" href="{{ route('home') }}">
+        <picture>
             <source srcset="{{ asset('img/logo/white_xl@2.webp') }}" media="(min-width: 1200px)" type="image/webp">
             <source srcset="{{ asset('img/logo/white_xl@2.png') }}" media="(min-width: 1200px)">
             <source srcset="{{ asset('img/logo/white_lg@2.webp') }}" media="(min-width: 992px)" type="image/webp">
