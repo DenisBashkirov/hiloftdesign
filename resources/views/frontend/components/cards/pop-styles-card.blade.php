@@ -1,6 +1,6 @@
 <div class="pop-styles-card swiper-slide">
     <picture>
-        <source srcset="{{ asset('img/design-styles/sample.jpg') }}" type="image/webp">
+        <source srcset="{{ asset('img/design-styles/sample.webp') }}" type="image/webp">
         <img src="{{ asset('img/design-styles/sample.jpg') }}" alt="">
     </picture>
     <div class="pop-styles-card__overlay overlay xs-lg:hidden flex flex-center justify-center">
