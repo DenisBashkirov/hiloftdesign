@@ -5,11 +5,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="{{ asset('css/frontend.css') }}">
     @if(env('APP_ENV' == 'production'))
-        <link rel="stylesheet" href="{{ asset('fonts/icons/style.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/frontend.min.css') }}">
     @else
-        <link rel="stylesheet" href="{{ asset('fonts/icons/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/frontend.css') }}">
     @endif
     @include('frontend.sources.styles')
 </head>
