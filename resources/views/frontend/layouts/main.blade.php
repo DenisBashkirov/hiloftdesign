@@ -6,7 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="{{ asset('css/frontend.css') }}">
-    <link rel="stylesheet" href="{{ asset('fonts/icons/style.css') }}">
+    @if(env('APP_ENV' == 'production'))
+        <link rel="stylesheet" href="{{ asset('fonts/icons/style.min.css') }}">
+    @else
+        <link rel="stylesheet" href="{{ asset('fonts/icons/style.css') }}">
+    @endif
     @include('frontend.sources.styles')
 </head>
 <body>
