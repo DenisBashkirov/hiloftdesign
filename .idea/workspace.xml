@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c0b2069-8ad8-4bd2-aaaf-6122bea3c421" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/sass/frontend/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/frontend/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/components/cards/pop-styles-card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/components/cards/pop-styles-card.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +186,7 @@
       <workItem from="1587990309606" duration="9834000" />
       <workItem from="1588360563908" duration="801000" />
       <workItem from="1588513723598" duration="7456000" />
-      <workItem from="1588670849216" duration="8180000" />
+      <workItem from="1588670849216" duration="8701000" />
     </task>
     <servers />
   </component>
