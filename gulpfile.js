@@ -12,8 +12,9 @@ const rjs = require('gulp-requirejs');
 const browserSync = require('browser-sync').create();
 const imagemin = require('gulp-imagemin');
 const webp = require('gulp-webp');
-const uncss = require('gulp-uncss');
+const uncss = require('postcss-uncss');
 const del = require('del');
+let postcss = require('gulp-postcss');
 
 
 sass.compiler = require('node-sass');
@@ -66,23 +67,11 @@ app.compileStyles = function (paths, outputFileName) {
     return gulp.src(paths)
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulpif(
-            argv.prod,
-                concat(outputFileName + '.min.css'),
-                concat(outputFileName + '.css'),
-            )
-        )
-        .pipe(gulpif(
-            argv.prod,
-                cleanCSS({
-                    level: 2})
-            )
-        )
+        .pipe(concat(outputFileName + '.css'))
         .pipe(autoprefixer({
             cascade: true
         }))
         .pipe(sourcemaps.write('.'))
-
         .pipe(gulp.dest(env.dest.css))
 };
 
@@ -99,21 +88,38 @@ gulp.task('styles', done => {
         'backend'
     );
 
-    if (argv.prod) {
-        app.compileStyles(
-            app.sass.common.concat(app.sass.frontend),
-            'frontend'
-        );
-
-        app.compileStyles(
-            app.sass.common.concat(app.sass.backend),
-            'backend'
-        );
-    }
-
     done();
 
 });
+
+
+gulp.task('min-css', function () {
+    return gulp.src(app.sass.common.concat(app.sass.frontend))
+        .pipe(sass().on('error', sass.logError))
+        .pipe(concat('frontend.min.css'))
+        .pipe(cleanCSS({level: 2}))
+        .pipe(autoprefixer({
+            cascade: true
+        }))
+        .pipe(gulp.dest(env.dest.css))
+});
+
+
+gulp.task('uncss', function () {
+
+    let plugins = [
+        uncss({
+            html: ['http://hiloftdesign/']
+        })
+    ];
+
+    return gulp.src('./public/css/frontend.min.css')
+        .pipe(postcss(plugins))
+        .pipe(gulp.dest('./public/css'));
+});
+
+gulp.task('build-css', gulp.series('min-css', 'uncss'));
+
 
 
 gulp.task('del-img', done => {
@@ -172,26 +178,7 @@ gulp.task('watch-img', function () {
 });
 
 
-gulp.task('min-css', function () {
-    return gulp.src(app.sass.frontend)
-        .pipe(sass().on('error', sass.logError))
-        .pipe(concat('frontend.min.css'))
-        .pipe(cleanCSS({level: 2}))
-        .pipe(autoprefixer({
-            cascade: true
-        }))
-        .pipe(gulp.dest(env.dest.css))
-});
 
-gulp.task('uncss', function () {
-    return gulp.src('./public/css/frontend.min.css')
-        .pipe(uncss({
-            html: ['http://hiloftdesign/']
-        }))
-        .pipe(gulp.dest('./public/css'));
-});
-
-gulp.task('build-css', gulp.series('min-css', 'uncss'));
 
 
 /*
