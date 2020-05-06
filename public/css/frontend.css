@@ -87921,8 +87921,6 @@ p {
 /* */
 .team-person-card {
   height: auto !important; }
-  .team-person-card:not(:last-child) {
-    margin-right: 8px; }
   @media (max-width: 991px) and (max-width: 991px) {
     .team-person-card {
       width: 70vw !important;

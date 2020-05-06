@@ -46,7 +46,7 @@
         </div>
 
         <div class="xs-sm:container-fluid lg-xl:container xs-sm:mt-6 md-lg:mt-12 xl:mt-20">
-            <div class="team-people-swiper swiper-container flex flex-center bg:grey-80">
+            <div class="team-people-swiper swiper-container flex flex-center">
                 <div class="swiper-wrapper xl:flex xl:justify-between">
                     @foreach($team_people as $person)
                         @component('frontend.components.cards.team-person-card', ['person'=>$person])
@@ -58,7 +58,7 @@
                     <div class="swiper-button swiper-button-next"><i class="icon-arrow"></i></div>
                 </div>
             </div>
-            <div class="swiper-pagination lg:hidden sx-1 xs-sm:mt- md:mt-8 lg:mt-6 xl:mt-16 bg:grey-30"></div>
+            <div class="swiper-pagination lg:hidden sx-1 xs-sm:mt-6 md:mt-8 lg:mt-6 xl:mt-16"></div>
         </div>
 
     </section>

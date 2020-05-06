@@ -55,7 +55,8 @@ $(document).ready(function () {
             768: {
                 slidesPerView: 'auto',
                 centeredSlides: false,
-                watchOverflow: false
+                watchOverflow: false,
+                spaceBetween: 8
             },
             // when window width is >= 1024px
             1024: {
