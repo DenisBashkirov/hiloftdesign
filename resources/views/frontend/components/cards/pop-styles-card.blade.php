@@ -1,7 +1,7 @@
 <div class="pop-styles-card swiper-slide">
     <picture>
-        <source srcset="{{ asset('img/design-styles/sample.webp') }}" type="image/webp">
-        <img src="{{ asset('img/design-styles/sample.jpg') }}" alt="">
+        <source data-srcset="{{ asset('img/design-styles/sample.webp') }}" type="image/webp">
+        <img class="lazyload" data-srcset="{{ asset('img/design-styles/sample.jpg') }}" alt="">
     </picture>
     <div class="pop-styles-card__overlay overlay xs-lg:hidden flex flex-center justify-center">
         <p class="text-white font-Montserrat font-bold xl:text-lg">Название стиля</p>
