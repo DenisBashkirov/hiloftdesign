@@ -53,10 +53,7 @@
                         @endcomponent
                     @endforeach
                 </div>
-                <div class="swiper-navigation lg-xl:hidden absolute z-5 w-full">
-                    <div class="swiper-button swiper-button-prev"><i class="icon-arrow"></i></div>
-                    <div class="swiper-button swiper-button-next"><i class="icon-arrow"></i></div>
-                </div>
+
             </div>
             <div class="swiper-pagination lg:hidden sx-1 xs-sm:mt- md:mt-8 lg:mt-6 xl:mt-16"></div>
         </div>
