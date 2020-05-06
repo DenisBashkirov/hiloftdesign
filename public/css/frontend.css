@@ -87919,6 +87919,18 @@ p {
 /* */
 /* CONTAINERS */
 /* */
+@media (max-width: 991px) and (max-width: 991px) {
+  .team-person-card {
+    width: 70vw !important;
+    max-width: 234px !important; } }
+
+@media (min-width: 1200px) {
+  .team-person-card {
+    width: 210px !important; } }
+
+/* */
+/* CONTAINERS */
+/* */
 .pop-styles-card__overlay {
   background-color: rgba(62, 67, 69, 0.85); }
 

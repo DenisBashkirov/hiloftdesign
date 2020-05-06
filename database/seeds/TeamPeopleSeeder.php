@@ -39,9 +39,6 @@ class TeamPeopleSeeder extends Seeder
             $data[$key]['name_slug'] = Str::slug($item['name']);
         }
 
-
-
-
         DB::table('team_people')->insert($data);
     }
 }

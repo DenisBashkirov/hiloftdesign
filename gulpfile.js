@@ -13,6 +13,7 @@ const browserSync = require('browser-sync').create();
 const imagemin = require('gulp-imagemin');
 const webp = require('gulp-webp');
 const uncss = require('gulp-uncss');
+const del = require('del');
 
 
 sass.compiler = require('node-sass');
@@ -115,6 +116,13 @@ gulp.task('styles', done => {
 });
 
 
+gulp.task('del-img', done => {
+    return del([
+        './public/img/'
+    ]);
+});
+
+
 gulp.task('img', done => {
 
     gulp.src(env.watch.img)
@@ -158,7 +166,7 @@ gulp.task('watch-img', function () {
 
     gulp.watch(
         env.watch.img,
-        gulp.series('img', 'webp')
+        gulp.series('del-img', 'img', 'webp')
     )
 
 });

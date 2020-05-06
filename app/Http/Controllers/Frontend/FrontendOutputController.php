@@ -6,6 +6,7 @@ use App\Events\LeadFormSubmitted;
 use App\Feedback;
 use App\NavMenuItem;
 use App\ServiceType;
+use App\TeamPerson;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\View;
 use Route;
@@ -28,6 +29,10 @@ class FrontendOutputController extends FrontendBaseController
     }
 
     public function home() {
+
+        $team_people = TeamPerson::all();
+        $this->varsAdd('team_people', $team_people);
+
         return $this->renderOutput();
     }
 

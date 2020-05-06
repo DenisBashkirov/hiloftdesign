@@ -11,7 +11,7 @@
         </div>
 
         <div class="xs-sm:container-fluid xs-sm:mt-6 md-lg:mt-12 xl:mt-20">
-            <div class="swiper-container flex flex-center">
+            <div class="pop-styles-swiper swiper-container flex flex-center">
                 <div class="swiper-wrapper xl:flex xl:justify-between">
                     @for($i = 1; $i <=5; $i++)
                         @component('frontend.components.cards.pop-styles-card')
@@ -45,12 +45,15 @@
             <h2 class="text-golden">Наша команда</h2>
         </div>
 
-        <div class="xs-sm:container-fluid xs-sm:mt-6 md-lg:mt-12 xl:mt-20">
-            <div class="swiper-container flex flex-center">
+        <div class="xs-sm:container-fluid lg-xl:container xs-sm:mt-6 md-lg:mt-12 xl:mt-20">
+            <div class="team-people-swiper swiper-container flex flex-center">
                 <div class="swiper-wrapper xl:flex xl:justify-between">
-
+                    @foreach($team_people as $person)
+                        @component('frontend.components.cards.team-person-card', ['person'=>$person])
+                        @endcomponent
+                    @endforeach
                 </div>
-                <div class="swiper-navigation xl:hidden absolute z-5 w-full">
+                <div class="swiper-navigation lg-xl:hidden absolute z-5 w-full">
                     <div class="swiper-button swiper-button-prev"><i class="icon-arrow"></i></div>
                     <div class="swiper-button swiper-button-next"><i class="icon-arrow"></i></div>
                 </div>
