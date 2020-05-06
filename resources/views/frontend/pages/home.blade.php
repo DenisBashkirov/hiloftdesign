@@ -58,7 +58,7 @@
                     <div class="swiper-button swiper-button-next"><i class="icon-arrow"></i></div>
                 </div>
             </div>
-            <div class="swiper-pagination lg:hidden sx-1 xs-sm:mt-6 md:mt-8 lg:mt-6 xl:mt-16"></div>
+            <div class="swiper-pagination lg-xl:hidden sx-1 xs-sm:mt-6 md:mt-8 lg:mt-6 xl:mt-16"></div>
         </div>
 
     </section>

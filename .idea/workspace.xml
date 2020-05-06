@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c0b2069-8ad8-4bd2-aaaf-6122bea3c421" name="Default Changelist" comment="" />
+    <list default="true" id="8c0b2069-8ad8-4bd2-aaaf-6122bea3c421" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/frontend.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/frontend.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/libs/lazyload/jquery.lazyloadxt.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/frontend/project/cards/pop-styles-card/pop-styles-card.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/frontend/project/cards/pop-styles-card/pop-styles-card.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/frontend/project/cards/team-person-card/team-person-card.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/frontend/project/cards/team-person-card/team-person-card.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/frontend/project/lazyload/lazyload.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/frontend/project/lazyload/lazyload.sass" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,7 +204,7 @@
       <workItem from="1588761384977" duration="9315000" />
       <workItem from="1588782526526" duration="1942000" />
       <workItem from="1588784496834" duration="3208000" />
-      <workItem from="1588803872069" duration="2431000" />
+      <workItem from="1588803872069" duration="4070000" />
     </task>
     <servers />
   </component>

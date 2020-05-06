@@ -1,7 +1,6 @@
 @import "../../../../bootstrap"
 
 .pop-styles-card
-    background-color: $golden-60
     overflow: hidden
     transition: all $duration_fast
 
@@ -23,7 +22,7 @@
 
 
     & img
-        transition: all $duration_fast
+        transition: transform $duration_normal ease-in-out, opacity .3s
 
     &:hover img
         transform: scale(1.1)
@@ -31,7 +30,7 @@
 
 
     & .overlay
-        transition: all $duration_fast
+        transition: opacity $duration_normal ease-in-out
         opacity: 0
 
     &:hover .overlay

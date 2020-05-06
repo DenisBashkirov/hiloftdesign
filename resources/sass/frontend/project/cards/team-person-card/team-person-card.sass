@@ -4,10 +4,27 @@
     height: auto !important
 
 
-    @media ($breakpoint_md_max) and ($breakpoint_md_max)
+    @media ($breakpoint_md_max)
         width: 70vw !important
         max-width: 234px !important
 
 
+    @media ($breakpoint_lg)
+        width: 185px !important
+
+
     @media ($breakpoint_xl)
         width: 210px !important
+
+
+    & img
+        display: block
+
+
+        @media ($breakpoint_md_max) and ($breakpoint_md_max)
+            height: calc(70vw / .6) !important
+            max-height: calc(234px / .6) !important
+
+
+        @media ($breakpoint_lg)
+            height: calc(185px / .6) !important
