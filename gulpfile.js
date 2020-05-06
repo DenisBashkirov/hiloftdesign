@@ -172,13 +172,26 @@ gulp.task('watch-img', function () {
 });
 
 
-gulp.task('compile-css', function () {
+gulp.task('uncss', function () {
     return gulp.src('./public/css/frontend.min.css')
         .pipe(uncss({
             html: ['http://hiloftdesign/']
         }))
         .pipe(gulp.dest('./public/css'));
 });
+
+gulp.task('min-css', function () {
+    return gulp.src(app.sass.frontend)
+        .pipe(sass().on('error', sass.logError))
+        .pipe(concat('.frontend.min.css'))
+        .pipe(cleanCSS({level: 2}))
+        .pipe(autoprefixer({
+            cascade: true
+        }))
+        .pipe(gulp.dest(env.dest.css))
+});
+
+gulp.task('build-css', gulp.series('min-css', 'uncss'));
 
 
 /*
