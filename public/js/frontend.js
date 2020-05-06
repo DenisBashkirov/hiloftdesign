@@ -62,6 +62,11 @@ $(document).ready(function () {
                 slidesPerView: 5,
                 spaceBetween: 8
             }
+            // when window width is >= 1200px
+            1200: {
+                slidesPerView: 5,
+                spaceBetween: 0
+            }
         }
     });
 
