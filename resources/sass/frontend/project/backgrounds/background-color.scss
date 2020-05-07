@@ -6,3 +6,9 @@
         background-color: $color;
     }
 }
+
+
+.bg-gradient-dark {
+    background: rgb(65, 67, 69);
+    background: linear-gradient(270deg, rgba(65, 67, 69, 1) 0%, rgba(49, 53, 54, 1) 100%);
+}
