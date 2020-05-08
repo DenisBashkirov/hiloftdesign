@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c0b2069-8ad8-4bd2-aaaf-6122bea3c421" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/frontend/components/socials/socials.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/frontend/sections/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/frontend/framework/typography/letter-spacing.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/frontend/project/cards/eshl-feature-card/eshl-feature-card.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/components/cards/eshl-feature-card.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/frontend.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/layouts/main.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/sections/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/sections/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/frontend.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/frontend.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/frontend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/frontend/project/backgrounds/background-color.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/frontend/project/backgrounds/background-color.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/frontend/project/cards/team-person-card/team-person-card.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/frontend/project/cards/team-person-card/team-person-card.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/frontend/project/swiper/swiper-wrapper.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/frontend/project/swiper/swiper-wrapper.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/components/cards/portfolio-item-card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/components/cards/portfolio-item-card.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/pages/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/sections/title-screen.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/sections/title-screen.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,6 +215,8 @@
       <workItem from="1588887099487" duration="2542000" />
       <workItem from="1588927879102" duration="599000" />
       <workItem from="1588930812065" duration="9393000" />
+      <workItem from="1588951689203" duration="5578000" />
+      <workItem from="1588958471512" duration="7224000" />
     </task>
     <servers />
   </component>
@@ -235,10 +244,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588785088182" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1588930832010">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1588959130088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588930832010" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588959130088" />
+    <state x="656" y="257" width="737" height="596" key="find.popup" timestamp="1588965857872">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="257" width="737" height="596" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588965857872" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1588679743185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

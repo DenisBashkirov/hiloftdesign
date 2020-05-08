@@ -108,8 +108,60 @@ $(document).ready(function () {
 
     if($(window).width() >= 1200) {
         portfolioItemsSwiper.destroy();
-        console.log('destroy');
-        console.log($(window).width());
     }
+
+
+
+    /*
+    eshlFeaturesSwiper
+     */
+    var eshlFeaturesSwiper = new Swiper('.eshl-features-swiper', {
+        spaceBetween: 16,
+        watchOverflow: true,
+        pagination: {
+            el: '.eshl-features-swiper-pagination',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+                slidesPerView: 'auto',
+                centeredSlides: true,
+                centeredSlidesBounds: true
+            },
+            // when window width is >= 768px
+            768: {
+                slidesPerView: 'auto',
+                spaceBetween: 0,
+                watchOverflow: false,
+                centeredSlides: false,
+                noSwiping: false
+            },
+            // when window width is >= 992px
+            992: {
+                init: false,
+                noSwiping: true,
+                noSwipingClass: 'swiper-wrapper',
+                spaceBetween: 0,
+            },
+            // when window width is >= 1200px
+            1200: {
+                init: false,
+                noSwiping: true,
+                noSwipingClass: 'swiper-wrapper',
+                spaceBetween: 0,
+            }
+
+        }
+    });
+
+
+
+
+
 
 });
