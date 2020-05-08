@@ -7,6 +7,30 @@
     <section class="xs-sm:mt-12 md:mt-24 lg:mt-28 xl:mt-36">
 
         <div class="container">
+            <h2 class="text-golden">Портфолио</h2>
+        </div>
+
+        <div class="xs-sm:container-fluid xs-sm:mt-6 md-lg:mt-12 xl:mt-20">
+            <div class="portfolio-items-swiper swiper-container flex flex-center">
+                <div class="swiper-wrapper xl:flex xl:flex-wrap xl:justify-between">
+                    @for($i = 1; $i <=8; $i++)
+                        @component('frontend.components.cards.portfolio-item-card')
+                        @endcomponent
+                    @endfor
+                </div>
+                <div class="swiper-navigation xl:hidden absolute z-5 w-full">
+                    <div class="swiper-button swiper-button-prev"><i class="icon-arrow"></i></div>
+                    <div class="swiper-button swiper-button-next"><i class="icon-arrow"></i></div>
+                </div>
+            </div>
+            <div class="swiper-pagination portfolio-items-swiper-pagination xl:hidden sx-1 xs-sm:mt-6 md:mt-8 lg:mt-6 xl:mt-16"></div>
+        </div>
+
+    </section>
+
+    <section class="xs-sm:mt-12 md:mt-24 lg:mt-28 xl:mt-36">
+
+        <div class="container">
             <h2 class="text-golden">Популярные стили</h2>
         </div>
 
@@ -23,7 +47,7 @@
                     <div class="swiper-button swiper-button-next"><i class="icon-arrow"></i></div>
                 </div>
             </div>
-            <div class="swiper-pagination sx-1 xs-sm:mt-6 md:mt-8 lg:mt-6 xl:mt-16"></div>
+            <div class="swiper-pagination pop-styles-swiper-pagination xl:hidden sx-1 xs-sm:mt-6 md:mt-8 lg:mt-6 xl:mt-16"></div>
         </div>
 
         <div class="flex justify-center">
@@ -58,7 +82,7 @@
                     <div class="swiper-button swiper-button-next"><i class="icon-arrow"></i></div>
                 </div>
             </div>
-            <div class="swiper-pagination lg-xl:hidden sx-1 xs-sm:mt-6 md:mt-8 lg:mt-6 xl:mt-16"></div>
+            <div class="swiper-pagination team-people-swiper-pagination lg-xl:hidden sx-1 xs-sm:mt-6 md:mt-8 lg:mt-6 xl:mt-16"></div>
         </div>
 
     </section>

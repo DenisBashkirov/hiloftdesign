@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c0b2069-8ad8-4bd2-aaaf-6122bea3c421" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/sass/frontend/framework/flexbox/flex-wrap.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/frontend/project/cards/portfolio-item-card/portfolio-item-card.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/frontend/project/swiper/swiper-button-disabled.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/components/cards/portfolio-item-card.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/frontend.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/frontend.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/frontend.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/frontend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/frontend/base.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/frontend/base.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/frontend/project/backgrounds/form_order-design/form_order-design.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/frontend/project/backgrounds/form_order-design/form_order-design.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/frontend/project/backgrounds/title-screen/home.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/frontend/project/backgrounds/title-screen/home.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/frontend/project/cards/pop-styles-card/pop-styles-card.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/frontend/project/cards/pop-styles-card/pop-styles-card.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/pages/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +212,9 @@
       <workItem from="1588784496834" duration="3208000" />
       <workItem from="1588803872069" duration="4928000" />
       <workItem from="1588871138241" duration="4907000" />
-      <workItem from="1588887099487" duration="1701000" />
+      <workItem from="1588887099487" duration="2542000" />
+      <workItem from="1588927879102" duration="599000" />
+      <workItem from="1588930812065" duration="6868000" />
     </task>
     <servers />
   </component>
@@ -234,10 +242,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588785088182" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1588887104405">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1588930832010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588887104405" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588930832010" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1588679743185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
