@@ -33,9 +33,8 @@
     </nav>
 
     <div class="xs-lg:hidden xl:sx-5 xl:text-2xl">
-        <a href="#"><i class="icon-instagram"></i></a>
-        <a href="#"><i class="icon-vk-logo"></i></a>
-        <a href="#"><i class="icon-youtube-icon"></i></a>
+        @component('frontend.components.socials.socials')
+        @endcomponent
     </div>
 
     <div class="xs-sm:hidden md-lg:flex-order-3 inline-flex flex-col flex-end">
