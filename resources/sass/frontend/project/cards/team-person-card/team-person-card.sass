@@ -6,12 +6,14 @@
 
     @media ($breakpoint_md_max)
         $width: 70vw
+        $max-width: 234px
         width: $width !important
-        max-width: 234px !important
+        max-width: $max-width !important
 
         & img
             height: calc(#{$width} / .6) !important
-            
+            max-height: calc(#{$max-width} / .6) !important
+
 
     @media ($breakpoint_lg)
         $width: 185px

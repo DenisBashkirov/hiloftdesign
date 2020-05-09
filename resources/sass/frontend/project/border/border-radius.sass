@@ -1,0 +1,5 @@
+@import "../../../bootstrap"
+
+@each $name, $val in (0, 0), (sm, 3px), (base, 5px), (xl, 10px)
+    .b-radius-#{$name}
+        border-radius: $val

@@ -27,7 +27,7 @@
         </div>
 
         <div class="flex justify-center">
-            <a class="button button-golden-solid xs-sm:text-sm xs-sm:mt-8 md:mt-12 lg-xl:mt-16" href="#">Каталог стилей</a>
+            <a class="button button-golden-solid xs-sm:text-sm xs-sm:mt-8 md:mt-12 lg-xl:mt-16" href="#">Все проекты</a>
         </div>
 
     </section>
@@ -100,6 +100,13 @@
         </div>
 
     </section>
+
+    <div class="container flex flex-wrap justify-between xs-sm:flex-col xs-sm:mt-12 md:mt-24 lg:mt-28 xl:mt-36 xs-sm:my-12 xs-sm:sy-8">
+        @component('frontend.components.cards.services-card', ['headline'=>'Дизайн квартир', 'background'=>'apartments'])
+        @endcomponent
+        @component('frontend.components.cards.services-card', ['headline'=>'Дизайн домов и коттеджей', 'background'=>'houses'])
+        @endcomponent
+    </div>
 
     <section class="container-fluid xs-sm:mt-12 md:mt-24 lg:mt-28 xl:mt-36 xs-md:py-8 lg:py-16 xl:py-20 bg-grey-20">
         <div class="container flex xs-md:flex-col flex-center">

@@ -1,0 +1,5 @@
+@import "../../../bootstrap"
+
+@for $i from 1 through 12
+    +breakpoints(w-cols-#{$i})
+        width: calc((100% - #{$grid-column-gap * (12 - 1)}) / 12 * #{$i} + #{$grid-column-gap * ($i - 1)})
