@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c0b2069-8ad8-4bd2-aaaf-6122bea3c421" name="Default Changelist" comment="" />
+    <list default="true" id="8c0b2069-8ad8-4bd2-aaaf-6122bea3c421" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/frontend.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/frontend.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/frontend.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/frontend/project/hamburgers/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/frontend/project/hamburgers/_base.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -205,7 +212,7 @@
       <workItem from="1588958471512" duration="7224000" />
       <workItem from="1589013751863" duration="7358000" />
       <workItem from="1589026198161" duration="4471000" />
-      <workItem from="1589040867246" duration="4764000" />
+      <workItem from="1589040867246" duration="5875000" />
     </task>
     <servers />
   </component>

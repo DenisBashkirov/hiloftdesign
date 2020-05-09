@@ -97,7 +97,13 @@ gulp.task('min-css', function () {
     return gulp.src(app.sass.common.concat(app.sass.frontend))
         .pipe(sass().on('error', sass.logError))
         .pipe(concat('frontend.min.css'))
-        .pipe(cleanCSS({level: 2}))
+        .pipe(cleanCSS({
+            level: {
+                1: {
+
+                }
+            }
+        }))
         .pipe(autoprefixer({
             cascade: true
         }))
