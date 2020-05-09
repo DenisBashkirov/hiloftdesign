@@ -92010,6 +92010,7 @@ p {
  * @site https://jonsuh.com/hamburgers
  * @link https://github.com/jonsuh/hamburgers
  */
+/* uncss:ignore start */
 .hamburger {
   padding: 0 0;
   display: inline-block;
@@ -92062,6 +92063,7 @@ p {
   .hamburger-inner::after {
     bottom: -9px; }
 
+/* uncss:ignore end */
 /*
    * 3DX
    */
