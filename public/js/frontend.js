@@ -1,5 +1,14 @@
 $(document).ready(function () {
 
+
+    var $hamburger = $('.js-hamburger');
+    var $mobileMenu = $('.js-mobile_nav')
+    $hamburger.on('click', function () {
+        $hamburger.toggleClass('is-active');
+        $mobileMenu.fadeToggle();
+    });
+
+
     var popStylesSwiper = new Swiper('.pop-styles-swiper', {
         spaceBetween: 8,
         watchOverflow: true,
@@ -158,10 +167,5 @@ $(document).ready(function () {
 
         }
     });
-
-
-
-
-
 
 });

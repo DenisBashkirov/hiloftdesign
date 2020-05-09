@@ -11,12 +11,12 @@
             <source srcset="{{ asset('img/logo/white_sm@2.webp') }}" media="(min-width: 375px)" type="image/webp">
             <source srcset="{{ asset('img/logo/white_sm@2.png') }}" media="(min-width: 375px)">
             <source srcset="{{ asset('img/logo/white_xs@2.webp') }}" type="image/webp">
-            <img class="xs-sm:h-6 md:w-28 lg:w-36 xl:h-10" src="{{ asset('img/logo/white_xs@2.png') }}" alt="Hiloft Design Studio логотип белый" />
+            <img class="xs-sm:h-6 md:w-28 lg:w-36 xl:h-10 z-5" src="{{ asset('img/logo/white_xs@2.png') }}" alt="Hiloft Design Studio логотип белый" />
         </picture>
     </a>
 
-    <div class="xl:hidden flex flex-center md-lg:flex-order-1">
-        <button class="hamburger hamburger--collapse" type="button">
+    <div class="xl:hidden flex flex-center md-lg:flex-order-1 z-5">
+        <button class="hamburger hamburger--spring js-hamburger" type="button">
             <span class="hamburger-box">
                 <span class="hamburger-inner"></span>
             </span>
@@ -40,6 +40,25 @@
     <div class="xs-sm:hidden md-lg:flex-order-3 inline-flex flex-col flex-end">
         <a class="font-bold md:text-lg lg-xl:text-xl" href="tel:{{ phone_to_int($phone) }}">{{ $phone }}</a>
         <span class="md-xl:mt-1 op-90">заказать звонок</span>
+    </div>
+
+    <div class="container hidden fixed flex flex-col w-screen h-screen left-0 top-0 pt-24 sy-12 bg-gradient-dark js-mobile_nav">
+
+        <nav class="flex flex-col sy-6 xs-sm:text-2xl font-bold">
+            <a href="#">Портфолио</a>
+            <a href="#">Услуги и цены</a>
+            <a href="#">Блог</a>
+            <a href="#">Чек-листы</a>
+            <a href="#">Контакты</a>
+        </nav>
+
+        <div class="inline-flex flex-col flex-start sy-3">
+            <a class="font-bold text-2xl" href="tel:{{ phone_to_int($phone) }}">{{ $phone }}</a>
+            <span class="text-lg op-90">заказать звонок</span>
+        </div>
+
+        <a class="button button-white-ghost text-sm" href="#">Заказать дизайн</a>
+
     </div>
 
 </header>
