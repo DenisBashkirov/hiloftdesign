@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c0b2069-8ad8-4bd2-aaaf-6122bea3c421" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/sass/frontend/project/cards/portfolio-item-card/portfolio-item-card--slide.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/components/nav/nav.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/components/portfolio/portfolio_items.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/pages/portfolio.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/frontend/sections/service-cards.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/FrontendOutputController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/FrontendOutputController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/frontend.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/frontend.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/frontend.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/frontend.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/frontend/project/hamburgers/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/frontend/project/hamburgers/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/frontend/project/hamburgers/hamburgers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/frontend/project/hamburgers/hamburgers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/frontend/project/cards/portfolio-item-card/portfolio-item-card.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/frontend/project/cards/portfolio-item-card/portfolio-item-card.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/components/cards/portfolio-item-card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/components/cards/portfolio-item-card.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/pages/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/sections/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/sections/header.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +221,7 @@
       <workItem from="1589013751863" duration="7358000" />
       <workItem from="1589026198161" duration="4471000" />
       <workItem from="1589040867246" duration="7812000" />
-      <workItem from="1589106803931" duration="3427000" />
+      <workItem from="1589106803931" duration="9748000" />
     </task>
     <servers />
   </component>

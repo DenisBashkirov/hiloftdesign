@@ -36,6 +36,10 @@ class FrontendOutputController extends FrontendBaseController
         return $this->renderOutput();
     }
 
+    public function portfolio() {
+        return $this->renderOutput();
+    }
+
     public function files() {
         $files = [
             [

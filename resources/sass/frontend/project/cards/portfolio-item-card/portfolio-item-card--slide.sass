@@ -1,0 +1,9 @@
+@import "../../../../bootstrap"
+@import "portfolio-item-card"
+
+.portfolio-item-card--slide
+    @extend .portfolio-item-card
+
+    @media ($breakpoint_lg) and ($breakpoint_lg_max)
+        width: 768px !important
+        height: calc(768px / #{$ratio}) !important

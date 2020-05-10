@@ -25,11 +25,8 @@
     </div>
 
     <nav class="xs-lg:hidden xl:sx-5 xl:text-lg">
-        <a href="#">Портфолио</a>
-        <a href="#">Услуги и цены</a>
-        <a href="#">Блог</a>
-        <a href="#">Чек-листы</a>
-        <a href="#">Контакты</a>
+        @component('frontend.components.nav.nav')
+        @endcomponent
     </nav>
 
     <div class="xs-lg:hidden xl:sx-5 xl:text-2xl">
@@ -45,11 +42,8 @@
     <div class="container hidden fixed flex flex-col w-screen h-screen left-0 top-0 pt-24 sy-12 bg-gradient-dark js-mobile_nav">
 
         <nav class="flex flex-col sy-6 xs-sm:text-2xl font-bold">
-            <a href="#">Портфолио</a>
-            <a href="#">Услуги и цены</a>
-            <a href="#">Блог</a>
-            <a href="#">Чек-листы</a>
-            <a href="#">Контакты</a>
+            @component('frontend.components.nav.nav')
+            @endcomponent
         </nav>
 
         <div class="inline-flex flex-col flex-start sy-3">
