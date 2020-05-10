@@ -97,13 +97,7 @@ gulp.task('min-css', function () {
     return gulp.src(app.sass.common.concat(app.sass.frontend))
         .pipe(sass().on('error', sass.logError))
         .pipe(concat('frontend.min.css'))
-        .pipe(cleanCSS({
-            level: {
-                1: {
-
-                }
-            }
-        }))
+        .pipe(cleanCSS({level: 2}))
         .pipe(autoprefixer({
             cascade: true
         }))
@@ -116,7 +110,10 @@ gulp.task('uncss', function () {
     let plugins = [
         uncss({
             html: ['http://hiloftdesign/'],
-            ignore: ['.bg-title-screen--home.no-webp']
+            ignore: [
+                '.bg-title-screen--home.no-webp',
+                /.is-active/
+            ]
         })
     ];
 

@@ -1,8 +1,11 @@
 $(document).ready(function () {
 
+    var str = '.hamburger--spring.is-active .hamburger-inner';
+    var regExp = /.is-active/;
+    console.log(str.match(regExp));
 
     var $hamburger = $('.js-hamburger');
-    var $mobileMenu = $('.js-mobile_nav')
+    var $mobileMenu = $('.js-mobile_nav');
     $hamburger.on('click', function () {
         $hamburger.toggleClass('is-active');
         $mobileMenu.fadeToggle();

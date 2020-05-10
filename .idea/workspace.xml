@@ -7,7 +7,9 @@
       <change beforePath="$PROJECT_DIR$/public/css/frontend.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/frontend.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/frontend.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/frontend.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/frontend/project/hamburgers/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/frontend/project/hamburgers/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/frontend/project/hamburgers/hamburgers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/frontend/project/hamburgers/hamburgers.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +214,8 @@
       <workItem from="1588958471512" duration="7224000" />
       <workItem from="1589013751863" duration="7358000" />
       <workItem from="1589026198161" duration="4471000" />
-      <workItem from="1589040867246" duration="5875000" />
+      <workItem from="1589040867246" duration="7812000" />
+      <workItem from="1589106803931" duration="3427000" />
     </task>
     <servers />
   </component>
@@ -240,14 +243,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588785088182" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1589042210399">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1589106828662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589042210399" />
-    <state x="656" y="257" width="737" height="596" key="find.popup" timestamp="1588965857872">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589106828662" />
+    <state x="656" y="257" width="737" height="596" key="find.popup" timestamp="1589048796189">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="257" width="737" height="596" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588965857872" />
+    <state x="656" y="257" width="737" height="596" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589048796189" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1588679743185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
