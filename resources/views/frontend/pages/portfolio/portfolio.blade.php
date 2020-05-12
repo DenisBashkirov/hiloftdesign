@@ -5,7 +5,7 @@
 
     @include('frontend.sections.title-screen')
 
-    <div class="xs-sm:container-fluid xl:mt-20">
+    <div class="xs-sm:container-fluid">
         @component('frontend.components.portfolio.portfolio_items', ['swiper'=>false])
         @endcomponent
     </div>
