@@ -109,7 +109,10 @@ gulp.task('uncss', function () {
 
     let plugins = [
         uncss({
-            html: ['http://hiloftdesign/'],
+            html: [
+                'http://hiloftdesign/',
+                'http://hiloftdesign/portfolio',
+            ],
             ignore: [
                 '.bg-title-screen--home.no-webp',
                 /.is-active/
