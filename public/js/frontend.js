@@ -114,7 +114,7 @@ $(document).ready(function () {
         }
     });
 
-    if($(window).width() >= 1200) {
+    if($(window).width() >= 1200 && portfolioItemsSwiper !== undefined) {
         portfolioItemsSwiper.destroy();
     }
 
