@@ -89683,21 +89683,46 @@ p {
 /* */
 /* CONTAINERS */
 /* */
+/* */
+/* CONTAINERS */
+/* */
 .bg-title-screen--home {
   background-size: cover;
   background-position: center center; }
   @media (max-width: 767px) {
     .bg-title-screen--home {
-      background-image: url("../img/backgrounds/title-screen/home_sm@2.jpg"); } }
+      background-image: url("../img/backgrounds/home/title-screen_sm@1.jpg"); } }
   @media (min-width: 768px) {
     .bg-title-screen--home {
-      background-image: url("../img/backgrounds/title-screen/home_md@2.jpg"); } }
+      background-image: url("../img/backgrounds/home/title-screen_md@1.jpg"); } }
   @media (min-width: 1020px) {
     .bg-title-screen--home {
-      background-image: url("../img/backgrounds/title-screen/home_lg@1.5.jpg"); } }
+      background-image: url("../img/backgrounds/home/title-screen_lg@1.jpg"); } }
   @media (min-width: 1200px) {
     .bg-title-screen--home {
-      background-image: url("../img/backgrounds/title-screen/home.jpg"); } }
+      background-image: url("../img/backgrounds/home/title-screen_xl@1.jpg"); } }
+
+/* */
+/* CONTAINERS */
+/* */
+/* */
+/* CONTAINERS */
+/* */
+.bg-title-screen--portfolio {
+  background-size: cover;
+  background-position: center center; }
+  @media (max-width: 767px) {
+    .bg-title-screen--portfolio {
+      background-image: url("../img/backgrounds/portfolio/title-screen_sm@1.jpg"); } }
+  @media (min-width: 768px) {
+    .bg-title-screen--portfolio {
+      background-image: url("../img/backgrounds/portfolio/title-screen_md@1.jpg"); } }
+  @media (min-width: 1020px) {
+    .bg-title-screen--portfolio {
+      background-image: url("../img/backgrounds/portfolio/title-screen_lg@1.jpg"); } }
+  @media (min-width: 1200px) {
+    .bg-title-screen--portfolio {
+      background-image: url("../img/backgrounds/portfolio/title-screen_xl@1.jpg"); } }
 
 /* */
 /* CONTAINERS */
