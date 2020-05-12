@@ -89334,7 +89334,6 @@ p {
 /* CONTAINERS */
 /* */
 .breadcrumbs-arrow {
-  transform: rotate(-90deg);
   font-size: 0.7em; }
 
 /* */
@@ -89383,17 +89382,6 @@ p {
 /* */
 /* CONTAINERS */
 /* */
-.lazyload, .lazyloading {
-  opacity: 0;
-  transition: opacity 300ms; }
-
-.lazyloaded {
-  opacity: 1;
-  transition: opacity 300ms; }
-
-/* */
-/* CONTAINERS */
-/* */
 .input {
   background-color: transparent;
   padding: .5em .35em;
@@ -89402,6 +89390,17 @@ p {
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
   width: 100%;
   max-width: 15em; }
+
+/* */
+/* CONTAINERS */
+/* */
+.lazyload, .lazyloading {
+  opacity: 0;
+  transition: opacity 300ms; }
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 300ms; }
 
 /* */
 /* CONTAINERS */
