@@ -3,6 +3,8 @@
 
 @section('main_content')
 
+    @include('frontend.sections.title-screen')
+
     <div class="xs-sm:container-fluid xs-sm:mt-6 md-lg:mt-12 xl:mt-20">
         @component('frontend.components.portfolio.portfolio_items', ['swiper'=>false])
         @endcomponent
