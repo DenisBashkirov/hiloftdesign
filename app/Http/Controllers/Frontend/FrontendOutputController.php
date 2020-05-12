@@ -18,7 +18,7 @@ class FrontendOutputController extends FrontendBaseController
 
     public function __construct(Request $request) {
         $this->route_name = Route::currentRouteName();
-        $this->template = 'frontend.pages.' . $this->route_name;
+        $this->template = 'frontend.pages.' . $this->route_name . '.' . $this->route_name;
         View::share('current_route', $this->route_name);
 
         $company_phone = '8 (929) 669 96 97';
