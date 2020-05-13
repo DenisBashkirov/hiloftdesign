@@ -199,44 +199,42 @@ $(document).ready(function () {
     /*
     pricing-cards-swiper
      */
-    if (mobile_xs || mobile_sm || tablet_md || tablet_lg) {
-        let pricingCardsSwiper = new Swiper('.pricing-cards-swiper', {
-            spaceBetween: 30,
-            watchOverflow: true,
-            pagination: {
-                el: '.eshl-features-swiper-pagination',
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
+    let pricingCardsSwiper = new Swiper('.pricing-cards-swiper', {
+        spaceBetween: 30,
+        watchOverflow: true,
+        pagination: {
+            el: '.eshl-features-swiper-pagination',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
 
-            breakpoints: {
-                // when window width is >= 320px
-                320: {
-                    slidesPerView: 'auto',
-                    centeredSlides: true,
-                    initialSlide: 1,
-                    spaceBetween: 15,
-                },
-                375: {
-                    slidesPerView: 'auto',
-                    centeredSlides: true,
-                    initialSlide: 1,
-                    spaceBetween: 30,
-                },
-                992: {
-                    slidesPerView: 3,
-                    spaceBetween: 30,
-                },
-                1200: {
-                    slidesPerView: 3,
-                    spaceBetween: 30,
-                    noSwiping: true,
-                    noSwipingClass: 'swiper-wrapper',
-                }
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+                slidesPerView: 'auto',
+                centeredSlides: true,
+                initialSlide: 1,
+                spaceBetween: 15,
+            },
+            375: {
+                slidesPerView: 'auto',
+                centeredSlides: true,
+                initialSlide: 1,
+                spaceBetween: 30,
+            },
+            992: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+            1200: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+                noSwiping: true,
+                noSwipingClass: 'swiper-wrapper',
             }
-        });
-    }
+        }
+    });
 
 });
