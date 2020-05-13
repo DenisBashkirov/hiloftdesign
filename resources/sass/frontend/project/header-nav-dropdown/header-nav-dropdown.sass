@@ -1,0 +1,17 @@
+@import "../../../bootstrap"
+
+.header-nav-dropdown
+    $pointer_size: 16px
+    top: calc(100% + #{$pointer_size})
+
+
+    &:after
+        content: ''
+        display: block
+        width: $pointer_size
+        height: $pointer_size
+        background: inherit
+        transform: rotate(45deg)
+        position: absolute
+        top: -#{$pointer_size / 2}
+        left: $pointer_size
