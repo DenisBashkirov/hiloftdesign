@@ -1,4 +1,4 @@
-<section class="title-screen bg-title-screen--portfolio webp xs-sm:h-64 md-xl:h-84 xl:h-128 text-white xs-sm:pt-12">
+<section class="title-screen bg-title-screen--{{ $title_screen_bg }} webp xs-sm:h-64 md-xl:h-84 xl:h-128 text-white xs-sm:pt-12">
     <div class="overlay bg-black-100 op-50"></div>
     <div class="xs-lg:container xl:container-fluid xl:pl-8 relative flex flex-col justify-center xs-sm:flex-start xl:flex-start h-full">
 

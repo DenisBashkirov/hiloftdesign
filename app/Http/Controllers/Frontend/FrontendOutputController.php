@@ -40,8 +40,9 @@ class FrontendOutputController extends FrontendBaseController
         return $this->renderOutput();
     }
 
-    public function services() {
-        $this->template = 'frontend.pages.services.service';
+    public function services($service_name) {
+        $this->varsAdd('service_name', $service_name);
+
         return $this->renderOutput();
     }
 

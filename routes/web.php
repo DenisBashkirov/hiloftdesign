@@ -23,5 +23,5 @@ Route::namespace('Frontend')->group(function () {
             Route::get($nav_item->uri, ['uses' => 'FrontendOutputController@' . $nav_item->route, 'as' => $nav_item->route]);
         }
     }
-    Route::get('/dizayn_kvartir', ['uses' => 'FrontendOutputController@services', 'as' => 'services.dizayn_kvartir']);
+    Route::get('/services/{service_name}', ['uses' => 'FrontendOutputController@services', 'as' => 'services']);
 });

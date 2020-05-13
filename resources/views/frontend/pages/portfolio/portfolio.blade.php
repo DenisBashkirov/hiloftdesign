@@ -3,7 +3,7 @@
 
 @section('main_content')
 
-    @component('frontend.sections.title-screen', ['page_h1'=>'Портфолио'])
+    @component('frontend.sections.title-screen', ['page_h1'=>'Портфолио', 'title_screen_bg'=>'portfolio'])
     @endcomponent
 
     <div class="xs-sm:container-fluid">
