@@ -229,6 +229,12 @@ $(document).ready(function () {
                     slidesPerView: 3,
                     spaceBetween: 30,
                 },
+                1200: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                    noSwiping: true,
+                    noSwipingClass: 'swiper-wrapper',
+                }
             }
         });
     }
