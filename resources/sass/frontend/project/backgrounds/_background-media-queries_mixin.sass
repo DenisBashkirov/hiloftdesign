@@ -1,0 +1,20 @@
+@import "../../../bootstrap"
+
+@mixin background-media-queries($path)
+    background-size: cover
+    background-position: center center
+
+    @media ($breakpoint_sm_max)
+        background-image: url('../img/backgrounds/#{$path}_xs@1.jpg')
+
+    @media ($breakpoint_sm_max)
+        background-image: url('../img/backgrounds/#{$path}_sm@1.jpg')
+
+    @media ($breakpoint_md)
+        background-image: url('../img/backgrounds/#{$path}_md@1.jpg')
+
+    @media ($breakpoint_lg)
+        background-image: url('../img/backgrounds/#{$path}_lg@1.jpg')
+
+    @media ($breakpoint_xl)
+        background-image: url('../img/backgrounds/#{$path}_xl@1.jpg')

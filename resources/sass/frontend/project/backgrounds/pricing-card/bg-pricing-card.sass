@@ -1,0 +1,7 @@
+@import "../../../../bootstrap"
+@import "../background-media-queries_mixin"
+
+@each $name in basic, comfort, premium
+    $path: 'pricing-cards/#{$name}'
+    .bg-pricing-card--#{$name}
+        +background-media-queries($path)
