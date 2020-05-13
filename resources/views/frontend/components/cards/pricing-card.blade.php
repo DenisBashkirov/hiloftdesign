@@ -1,4 +1,5 @@
-<div class="pricing-card flex flex-col flex-center py-10 xs-md:px-4 sy-6 text-white bg-pricing-card--{{ $bg }} b-radius-5 swiper-slide">
+<div class="pricing-card flex flex-col flex-center py-10 xs-md:px-4 sy-6 text-white bg-pricing-card--{{ $bg }} b-radius-5 overflow-hidden swiper-slide">
+    <div class="overlay bg-grey-90 op-80"></div>
     <div class="text-center">
         <div class="pricing-card__headline xs-sm:text-3xl md-xl:text-4xl font-Montserrat font-semibold">{{ $title }}</div>
         <div class="pricing-card__pricing mt-3">
