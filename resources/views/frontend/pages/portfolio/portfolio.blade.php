@@ -3,7 +3,8 @@
 
 @section('main_content')
 
-    @include('frontend.sections.title-screen')
+    @component('frontend.sections.title-screen', ['page_h1'=>'Портфолио'])
+    @endcomponent
 
     <div class="xs-sm:container-fluid">
         @component('frontend.components.portfolio.portfolio_items', ['swiper'=>false])

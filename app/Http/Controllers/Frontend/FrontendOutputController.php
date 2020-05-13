@@ -40,6 +40,11 @@ class FrontendOutputController extends FrontendBaseController
         return $this->renderOutput();
     }
 
+    public function services() {
+        $this->template = 'frontend.pages.services.service';
+        return $this->renderOutput();
+    }
+
     public function files() {
         $files = [
             [
