@@ -16,15 +16,23 @@ $(document).ready(function () {
 
 
     let $headerDropdown = $('.js-header-nav-dropdown');
-    $headerDropdown.on('mouseenter', function () {
-        let $dropdownMenu = $(this).find('.header-nav-dropdown-wrapper');
-        $dropdownMenu.fadeIn();
-    });
+    if(desktop) {
+        $headerDropdown.on('mouseenter', function () {
+            let $dropdownMenu = $(this).find('.header-nav-dropdown-wrapper');
+            $dropdownMenu.fadeIn('fast');
+        });
+        $headerDropdown.on('mouseleave', function () {
+            let $dropdownMenu = $(this).find('.header-nav-dropdown-wrapper');
+            $dropdownMenu.fadeOut('fast');
+        });
+    } else {
+        let $dropdownMenu = '.header-nav-dropdown-wrapper';
+        $headerDropdown.on('click', function () {
+            let $dropdownMenu = $(this).find('.header-nav-dropdown-wrapper');
+            $dropdownMenu.slideToggle('fast');
+        });
+    }
 
-    $headerDropdown.on('mouseleave', function () {
-        let $dropdownMenu = $(this).find('.header-nav-dropdown-wrapper');
-        $dropdownMenu.fadeOut();
-    });
 
 
     var $hamburger = $('.js-hamburger');

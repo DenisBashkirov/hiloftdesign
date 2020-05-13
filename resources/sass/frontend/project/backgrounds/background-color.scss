@@ -2,7 +2,7 @@
 @import "../../colors";
 
 @each $name, $color in $colors-map {
-    .bg-#{$name} {
+    @include breakpoints(bg-#{$name}) {
         background-color: $color;
     }
 }

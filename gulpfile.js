@@ -112,6 +112,8 @@ gulp.task('uncss', function () {
             html: [
                 'http://hiloftdesign/',
                 'http://hiloftdesign/portfolio',
+                'http://hiloftdesign/dizayn-kvartir',
+                'http://hiloftdesign/dizayn-domov',
             ],
             ignore: [
                 '.bg-title-screen--home.no-webp',
