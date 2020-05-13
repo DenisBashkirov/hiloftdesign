@@ -1,7 +1,7 @@
-<a class="header-nav-item" href="{{ route('portfolio') }}">Портфолио</a class="header-nav-item">
+<a class="header-nav-item" href="{{ route('portfolio') }}">Портфолио</a>
 <span>
     <span>Услуги и цены</span>
-    <div class="header-nav-dropdown absolute flex flex-col sy-3 py-6 px-3 bor bg-grey-80">
+    <div class="header-nav-dropdown absolute flex flex-col sy-3 py-6 px-3 border-2 bg-grey-80">
         <a class="header-nav-dropdown-item" href="#">Дизайн квартир</a>
         <a class="header-nav-dropdown-item" href="#">Дизайн домов и коттеджей</a>
     </div>

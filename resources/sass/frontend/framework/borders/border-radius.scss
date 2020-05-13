@@ -1,0 +1,11 @@
+@import "../../../bootstrap";
+
+@for $i from 1px through 10px {
+    .b-radius-#{$i} {
+        border-radius: $i;
+    }
+}
+
+.b-radius-round {
+    border-radius: 50%;
+}
