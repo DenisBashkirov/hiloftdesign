@@ -1,5 +1,17 @@
 $(document).ready(function () {
 
+    let $headerDropdown = $('.js-header-nav-dropdown');
+    $headerDropdown.on('mouseenter', function () {
+        let $dropdownMenu = $(this).find('.header-nav-dropdown-wrapper');
+        $dropdownMenu.fadeIn();
+    });
+
+    $headerDropdown.on('mouseleave', function () {
+        let $dropdownMenu = $(this).find('.header-nav-dropdown-wrapper');
+        $dropdownMenu.fadeOut();
+    });
+
+
     var $hamburger = $('.js-hamburger');
     var $mobileMenu = $('.js-mobile_nav');
     $hamburger.on('click', function () {
