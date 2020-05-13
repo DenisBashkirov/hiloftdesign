@@ -4,7 +4,7 @@
 
         <div class="xs-md:flex xs-md:flex-col xs-lg:flex-start sy-3">
             <div class="breadcrumbs flex flex-nowrap flex-center sx-2 font-light op-75">
-                <a class="xs-sm:text-base" href="{{ route('home') }}">
+                <a class="xs-sm:text-base hover-underline" href="{{ route('home') }}">
                     <i class="icon-home md-xl:hidden"></i>
                     <span class="xs-sm:hidden">Дизайн интерьера</span>
                 </a>
