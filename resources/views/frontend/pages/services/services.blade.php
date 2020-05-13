@@ -5,7 +5,7 @@
     @component('frontend.sections.title-screen', ['page_h1'=>'Дизайн квартир', 'title_screen_bg'=>$service_name])
     @endcomponent
 
-    <section class="xs-sm:my-12 md:my-24 lg:my-28 xl:my-36">
+    <section class="pricing xs-sm:my-12 md:my-24 lg:my-28 xl:my-36">
 
         <div class="container">
             <h2 class="text-golden">Тарифы на услуги дизайна</h2>
@@ -23,6 +23,24 @@
 
                     @component('frontend.components.cards.pricing-card', ['title'=>'Премиум', 'price'=>'3190', 'bg'=>'premium'])
                     @endcomponent
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="special-offers xs-sm:my-12 md:my-24 lg:my-28 xl:my-36">
+
+        <div class="container">
+            <h2 class="text-golden">Спецпредложения</h2>
+        </div>
+
+        <div class="lg-xl:container xs-sm:mt-6 md-lg:mt-12 xl:mt-20">
+            <div class="pricing-cards-swiper swiper-container">
+                <div class="swiper-wrapper">
+
+                    
 
                 </div>
             </div>
