@@ -36,11 +36,52 @@
             <h2 class="text-golden">Спецпредложения</h2>
         </div>
 
-        <div class="lg-xl:container xs-sm:mt-6 md-lg:mt-12 xl:mt-20">
-            <div class="pricing-cards-swiper swiper-container">
+        <div class="xl:container xs-sm:mt-6 md-lg:mt-12 xl:mt-20">
+            <div class="special-offers-swiper swiper-container flex flex-wrap py-1 xl:px-1">
                 <div class="swiper-wrapper">
 
-                    
+                    @component('frontend.components.cards.special-offer-card', [
+                        'title'=>'Тест-драйв',
+                        'price'=>'2900',
+                        'options_list'=>[
+                            'заполняем техническое задание по видеосвязи на разработку дизайн-проекта',
+                            'подключаем вас к рабочему чату с дизайнером, архитектором, проектировщиком и комплектатором',
+                            'разрабатываем 3 планировочных решения для вашего сценария жизни',
+                            'выбираем один из них и доводим до 100% результата'
+                        ]
+                        ])
+                    @endcomponent
+
+                    @component('frontend.components.cards.special-offer-card', [
+                       'title'=>'Трейд-ин',
+                       'price'=>'2900',
+                       'options_list'=>[
+                           'исправим или доведём до конца сторонний незавершённый проект'
+                       ]
+                       ])
+                    @endcomponent
+
+                    @component('frontend.components.cards.special-offer-card', [
+                       'title'=>'Онлайн консультация',
+                       'price'=>'2900',
+                       'options_list'=>[
+                           'архитектор подготавливает несоклько вариантов идей',
+                           'часовая онлайн-встреча с обсуждением уже подготовленных идей',
+                           'итоговые наброски и ссылки отправляются на почту'
+                       ]
+                       ])
+                    @endcomponent
+
+                    @component('frontend.components.cards.special-offer-card', [
+                       'title'=>'Аудит и доработка',
+                       'price'=>'2900',
+                       'options_list'=>[
+                           'смета с нуля по вашей визуализации',
+                           'доработка сметы: проверим наличие, цены и скидки по базе проверенных поставщиков',
+                           'организация закупки и доставки персональным менеджером'
+                       ]
+                       ])
+                    @endcomponent
 
                 </div>
             </div>

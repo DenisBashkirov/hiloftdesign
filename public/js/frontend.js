@@ -132,7 +132,7 @@ $(document).ready(function () {
                 spaceBetween: 8
             },
             // when window width is >= 992px
-            992: {
+            1020: {
                 slidesPerView: 'auto',
                 centeredSlides: true,
                 centeredSlidesBounds: true,
@@ -177,7 +177,7 @@ $(document).ready(function () {
                 noSwiping: false
             },
             // when window width is >= 992px
-            992: {
+            1020: {
                 init: false,
                 noSwiping: true,
                 noSwipingClass: 'swiper-wrapper',
@@ -203,7 +203,7 @@ $(document).ready(function () {
         spaceBetween: 30,
         watchOverflow: true,
         pagination: {
-            el: '.eshl-features-swiper-pagination',
+            el: '',
         },
         navigation: {
             nextEl: '.swiper-button-next',
@@ -224,12 +224,63 @@ $(document).ready(function () {
                 initialSlide: 1,
                 spaceBetween: 30,
             },
-            992: {
+            1020: {
                 slidesPerView: 3,
                 spaceBetween: 30,
             },
             1200: {
                 slidesPerView: 3,
+                spaceBetween: 30,
+                noSwiping: true,
+                noSwipingClass: 'swiper-wrapper',
+            }
+        }
+    });
+
+
+    /*
+    special-offers-swiper
+     */
+    let spericalOffersSwiper = new Swiper('.special-offers-swiper', {
+        spaceBetween: 30,
+        watchOverflow: true,
+        pagination: {
+            el: '',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+                slidesPerView: 'auto',
+                centeredSlides: true,
+                spaceBetween: 15,
+            },
+            375: {
+                slidesPerView: 'auto',
+                centeredSlides: true,
+                spaceBetween: 30,
+            },
+            768: {
+                slidesPerView: 'auto',
+                centeredSlides: true,
+                centeredSlidesBounds: true,
+                spaceBetween: 30,
+                slidesOffsetBefore: 30,
+                slidesOffsetAfter: 30
+            },
+            1020: {
+                slidesPerView: 3,
+                centeredSlides: false,
+                spaceBetween: 30,
+                slidesOffsetBefore: 30,
+                slidesOffsetAfter: 30
+            },
+            1200: {
+                slidesPerView: 4,
                 spaceBetween: 30,
                 noSwiping: true,
                 noSwipingClass: 'swiper-wrapper',
