@@ -1,8 +1,8 @@
 <div class="pricing-card flex flex-col flex-center py-10 xs-md:px-4 sy-6 text-white bg-grey-80 b-radius-5 swiper-slide">
     <div class="text-center">
-        <div class="pricing-card__headline xs-sm:text-3xl md-xl:text-4xl font-Montserrat font-semibold">Базовый</div>
+        <div class="pricing-card__headline xs-sm:text-3xl md-xl:text-4xl font-Montserrat font-semibold">{{ $title }}</div>
         <div class="pricing-card__pricing mt-3">
-            <div class="pricing-card__price-value xs-sm:mt-1 font-bold xs-sm:text-3xl md-xl:text-4xl">1190 р</div>
+            <div class="pricing-card__price-value xs-sm:mt-1 font-bold xs-sm:text-3xl md-xl:text-4xl">{{ $price }} р</div>
             <div class="pricing-card__unit font-bold md-xl:text-lg">за кв. метр</div>
         </div>
     </div>

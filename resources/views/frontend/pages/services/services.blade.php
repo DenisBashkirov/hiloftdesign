@@ -14,9 +14,16 @@
         <div class="lg-xl:container xs-sm:mt-6 md-lg:mt-12 xl:mt-20">
             <div class="pricing-cards-swiper swiper-container">
                 <div class="swiper-wrapper">
-                    @for ($i = 0; $i < 3; $i++)
 
-                    @endfor
+                    @component('frontend.components.cards.pricing-card', ['title'=>'Базовый', 'price'=>'1190', 'bg'=>'basic'])
+                    @endcomponent
+
+                    @component('frontend.components.cards.pricing-card', ['title'=>'Комфорт', 'price'=>'2390', 'bg'=>'comfort'])
+                    @endcomponent
+
+                    @component('frontend.components.cards.pricing-card', ['title'=>'Премиум', 'price'=>'3190', 'bg'=>'premium'])
+                    @endcomponent
+
                 </div>
             </div>
         </div>
