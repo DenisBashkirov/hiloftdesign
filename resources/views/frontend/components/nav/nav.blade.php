@@ -8,6 +8,4 @@
     </div>
     </div>
 </span>
-<a class="header-nav-item" href="#">Блог</a>
-<a class="header-nav-item" href="#">Чек-листы</a>
 <a class="header-nav-item" href="{{ route('contacts') }}">Контакты</a>
