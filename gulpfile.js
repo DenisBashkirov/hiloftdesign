@@ -114,6 +114,7 @@ gulp.task('uncss', function () {
                 'http://hiloftdesign/portfolio',
                 'http://hiloftdesign/services/dizayn-kvartir',
                 'http://hiloftdesign/services/dizayn-domov',
+                'http://hiloftdesign/services/contacts',
             ],
             ignore: [
                 '.bg-title-screen--home.no-webp',

@@ -1,7 +1,7 @@
 @import "../../../../bootstrap"
 @import "../background-media-queries_mixin"
 
-@each $name in home, portfolio, dizayn-kvartir, dizayn-domov
+@each $name in home, portfolio, dizayn-kvartir, dizayn-domov, contacts
     $path: '#{$name}/title-screen'
     .bg-title-screen--#{$name}
         +background-media-queries($path)
