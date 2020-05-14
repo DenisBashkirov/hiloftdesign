@@ -38,11 +38,13 @@
     </div>
 
     <div class="map xl:py-16 bg-grey-20">
-
-        <div class="ymap xl:h-100" id="ymap">
-
+        <div class="container">
+            <div class="ymap xl:h-100 b-radius-2 shadow bg-grey-30" id="ymap"></div>
         </div>
-
     </div>
 
+@endsection
+
+@section('page_scripts')
+    @include('frontend.sources.ymap')
 @endsection
