@@ -1,3 +1,4 @@
+<script src="https://api-maps.yandex.ru/2.1/?apikey=ffd12f22-8ac8-4128-a78c-d675282765f0&lang=ru_RU"></script>
 <script>
     // Функция ymaps.ready() будет вызвана, когда
     // загрузятся все компоненты API, а также когда будет готово DOM-дерево.

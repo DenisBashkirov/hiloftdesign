@@ -1,4 +1,5 @@
-<a class="header-nav-item" href="{{ route('portfolio') }}">Портфолио</a>
+<a class="header-nav-item" href="{{ route('home') }}">Главная</a>
+<a class="header-nav-item" href="{{ route('portfolio') }}">Портфолио</a
 <span class="js-header-nav-dropdown">
     <span class="cursor-pointer">Услуги и цены</span>
     <div class="hidden header-nav-dropdown-wrapper xl:absolute xl:left-0">
