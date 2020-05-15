@@ -73,10 +73,16 @@
         <div class="xs-sm:container-fluid xs-sm:mt-6 md-lg:mt-12 xl:mt-20">
             <div class="pop-styles-swiper swiper-container flex flex-center">
                 <div class="swiper-wrapper xl:flex xl:justify-between">
-                    @for($i = 1; $i <=5; $i++)
-                        @component('frontend.components.cards.pop-styles-card')
-                        @endcomponent
-                    @endfor
+                    @component('frontend.components.cards.pop-styles-card', ['style_name'=>'Лофт', 'style_name_slug'=>'loft'])
+                    @endcomponent
+                    @component('frontend.components.cards.pop-styles-card', ['style_name'=>'Эко-стиль', 'style_name_slug'=>'eko'])
+                    @endcomponent
+                    @component('frontend.components.cards.pop-styles-card', ['style_name'=>'Прованс', 'style_name_slug'=>'provans'])
+                    @endcomponent
+                    @component('frontend.components.cards.pop-styles-card', ['style_name'=>'Минимализм', 'style_name_slug'=>'minimalizm'])
+                    @endcomponent
+                    @component('frontend.components.cards.pop-styles-card', ['style_name'=>'Скандинавский стиль', 'style_name_slug'=>'skandinavskiy'])
+                    @endcomponent
                 </div>
                 <div class="swiper-navigation xl:hidden absolute z-5 w-full">
                     <div class="swiper-button swiper-button-prev"><i class="icon-arrow"></i></div>
