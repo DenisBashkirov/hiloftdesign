@@ -62,7 +62,9 @@
 
     </section>
 
-    <section class="xs-sm:mt-12 md:mt-24 lg:mt-28 xl:mt-36">
+    @include('frontend.sections.service-cards')
+
+    <section class="pop-styles xs-sm:mt-12 md:mt-24 lg:mt-28 xl:mt-36">
 
         <div class="container">
             <h2 class="text-golden">Популярные стили</h2>
@@ -89,8 +91,6 @@
         </div>
 
     </section>
-
-    @include('frontend.sections.service-cards')
 
     <section class="container-fluid xs-sm:mt-12 md:mt-24 lg:mt-28 xl:mt-36 xs-md:py-8 lg:py-16 xl:py-20 bg-grey-20">
         <div class="container flex xs-md:flex-col flex-center">
