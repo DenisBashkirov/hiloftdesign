@@ -13,78 +13,78 @@ class PortfolioItemsSeeder extends Seeder
     {
         $data = [
             [
-                'img_name' => 'taunhauz_firsanovka_life_gostinaya',
+                'img_name' => 'taunhauz-firsanovka-life-gostinaya',
             ],
             [
-                'img_name' => 'taunhauz_firsanovka_life_spalnya',
+                'img_name' => 'taunhauz-firsanovka-life-spalnya',
             ],
             [
-                'img_name' => 'jk_zilart_spalnya',
+                'img_name' => 'jk-zilart-spalnya',
             ],
             [
-                'img_name' => 'jk_kutuzovskiy_gostinaya',
+                'img_name' => 'jk-kutuzovskiy-gostinaya',
             ],
             [
-                'img_name' => 'jk_zilart_gostinaya_kuhnya',
+                'img_name' => 'jk-zilart-gostinaya-kuhnya',
             ],
             [
-                'img_name' => 'jk_malaya_ordynka_spalnya',
+                'img_name' => 'jk-malaya-ordynka-spalnya',
             ],
             [
-                'img_name' => 'otel_na_baikale_nomer',
+                'img_name' => 'otel-na-baikale-nomer',
             ],
             [
-                'img_name' => 'jk_layner_sanuzel',
+                'img_name' => 'jk-layner-sanuzel',
             ],
             [
-                'img_name' => 'jk_layner_spalnya',
+                'img_name' => 'jk-layner-spalnya',
             ],
             [
-                'img_name' => 'jk_litsa_gostinaya',
-            ],
-
-            [
-                'img_name' => 'jk_litsa_kuhnya',
-            ],
-            [
-                'img_name' => 'jk_mosfilmovskiy_gostinaya',
-            ],
-            [
-                'img_name' => 'jk_mosfilmovskiy_koridor',
-            ],
-            [
-                'img_name' => 'jk_mosfilmovskiy_koridor_spalnya',
-            ],
-            [
-                'img_name' => 'jk_mosfilmovskiy_koridor_vannaya',
-            ],
-            [
-                'img_name' => 'kalyannaya_v_moskve_bar',
-            ],
-            [
-                'img_name' => 'kalyannaya_v_moskve_sanuzel',
-            ],
-            [
-                'img_name' => 'kalyannaya_v_moskve_zal',
-            ],
-            [
-                'img_name' => 'kp_losiniy_ostrov_spalnya',
-            ],
-            [
-                'img_name' => 'kp_losiniy_ostrov_vannaya',
+                'img_name' => 'jk-litsa-gostinaya',
             ],
 
             [
-                'img_name' => 'otel_hiloft_kuhnya',
+                'img_name' => 'jk-litsa-kuhnya',
             ],
             [
-                'img_name' => 'otel_hiloft_nomer',
+                'img_name' => 'jk-mosfilmovskiy-gostinaya',
             ],
             [
-                'img_name' => 'otel_na_baikale_gostinaya',
+                'img_name' => 'jk-mosfilmovskiy-koridor',
             ],
             [
-                'img_name' => 'otel_na_baikale_kuhnya',
+                'img_name' => 'jk-mosfilmovskiy-spalnya',
+            ],
+            [
+                'img_name' => 'jk-mosfilmovskiy-vannaya',
+            ],
+            [
+                'img_name' => 'kalyannaya-v-moskve-bar',
+            ],
+            [
+                'img_name' => 'kalyannaya-v-moskve-sanuzel',
+            ],
+            [
+                'img_name' => 'kalyannaya-v-moskve-zal',
+            ],
+            [
+                'img_name' => 'kp-losiniy-ostrov-spalnya',
+            ],
+            [
+                'img_name' => 'kp-losiniy-ostrov-vannaya',
+            ],
+
+            [
+                'img_name' => 'otel-hiloft-kuhnya',
+            ],
+            [
+                'img_name' => 'otel-hiloft-nomer',
+            ],
+            [
+                'img_name' => 'otel-na-baikale-gostinaya',
+            ],
+            [
+                'img_name' => 'otel-na-baikale-kuhnya',
             ],
         ];
 

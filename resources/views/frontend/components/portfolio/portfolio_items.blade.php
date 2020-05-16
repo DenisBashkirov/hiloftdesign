@@ -2,10 +2,10 @@
 
     <div class="portfolio-items-swiper swiper-container flex flex-center">
         <div class="swiper-wrapper xl:flex xl:flex-wrap xl:justify-between">
-            @for($i = 1; $i <=8; $i++)
-                @component('frontend.components.cards.portfolio-item-card', ['swiper_slide'=>true])
+            @foreach($portfolio_items as $portfolio_item)
+                @component('frontend.components.cards.portfolio-item-card', ['swiper_slide'=>true, 'img_name'=>$portfolio_item['img_name']])
                 @endcomponent
-            @endfor
+            @endforeach
         </div>
         <div class="swiper-navigation xl:hidden absolute z-5 w-full">
             <div class="swiper-button swiper-button-prev"><i class="icon-arrow"></i></div>
@@ -18,10 +18,10 @@
 
     <div class="flex flex-center">
         <div class="md-xl:flex md-xl:flex-wrap md-lg:justify-around xl:justify-between">
-            @for($i = 1; $i <=21; $i++)
-                @component('frontend.components.cards.portfolio-item-card', ['swiper_slide'=>false])
+            @foreach($portfolio_items as $portfolio_item)
+                @component('frontend.components.cards.portfolio-item-card', ['swiper_slide'=>false, 'img_name'=>$portfolio_item['img_name']])
                 @endcomponent
-            @endfor
+            @endforeach
         </div>
     </div>
 

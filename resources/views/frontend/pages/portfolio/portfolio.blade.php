@@ -7,7 +7,7 @@
     @endcomponent
 
     <div class="xs-sm:container-fluid">
-        @component('frontend.components.portfolio.portfolio_items', ['swiper'=>false])
+        @component('frontend.components.portfolio.portfolio_items', ['swiper'=>false, 'portfolio_items'=>$portfolio_items])
         @endcomponent
     </div>
 

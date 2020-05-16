@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Frontend;
 use App\Events\LeadFormSubmitted;
 use App\Feedback;
 use App\NavMenuItem;
+use App\PortfolioItem;
 use App\ServiceType;
 use App\TeamPerson;
 use Illuminate\Http\Request;
@@ -30,6 +31,8 @@ class FrontendOutputController extends FrontendBaseController
 
     public function home() {
 
+        $this->varsAdd('portfolio_items', PortfolioItem::take(8)->get());
+
         $team_people = TeamPerson::all();
         $this->varsAdd('team_people', $team_people);
 
@@ -37,6 +40,8 @@ class FrontendOutputController extends FrontendBaseController
     }
 
     public function portfolio() {
+        $this->varsAdd('portfolio_items', PortfolioItem::all());
+
         return $this->renderOutput();
     }
 
