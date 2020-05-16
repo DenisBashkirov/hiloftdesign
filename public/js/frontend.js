@@ -296,6 +296,7 @@ $(document).ready(function () {
         }
     });
 
+
     /*
     FANCYBOX
      */
@@ -304,6 +305,7 @@ $(document).ready(function () {
         keyboard: false,
         infobar: false,
         arrows: false,
+        touch: false,
     });
 
 });
