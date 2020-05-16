@@ -296,4 +296,14 @@ $(document).ready(function () {
         }
     });
 
+    /*
+    FANCYBOX
+     */
+    $('[data-fancybox="portfolio"]').fancybox({
+        toolbar : false,
+        keyboard: false,
+        infobar: false,
+        arrows: false,
+    });
+
 });
