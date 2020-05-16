@@ -306,6 +306,7 @@ $(document).ready(function () {
         infobar: false,
         arrows: false,
         touch: false,
+        clickOutside: "close",
     });
 
 });
