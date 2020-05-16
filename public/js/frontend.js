@@ -306,9 +306,9 @@ $(document).ready(function () {
         infobar: false,
         arrows: false,
         touch: false,
-        clickOutside: "close",
+        clickSlide: "close",
         mobile: {
-            clickOutside: "close",
+            clickSlide: "close",
         }
     });
 
