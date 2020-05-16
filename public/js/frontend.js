@@ -307,6 +307,9 @@ $(document).ready(function () {
         arrows: false,
         touch: false,
         clickOutside: "close",
+        mobile: {
+            clickOutside: "close",
+        }
     });
 
 });
