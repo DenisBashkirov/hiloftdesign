@@ -14,6 +14,6 @@
     </picture>
     <div class="pop-styles-card__overlay overlay xs-lg:hidden flex flex-center justify-center">
         <p class="text-white font-Montserrat font-bold xl:text-lg">{{ $style_name }}</p>
-        <a class="button button-white-solid absolute bottom-4 text-sm" href="#">Подробнее</a>
+        <!--<a class="button button-white-solid absolute bottom-4 text-sm" href="#">Подробнее</a>-->
     </div>
 </div>

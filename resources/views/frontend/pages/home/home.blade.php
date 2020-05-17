@@ -92,18 +92,22 @@
             <div class="swiper-pagination pop-styles-swiper-pagination xl:hidden sx-1 xs-sm:mt-6 md:mt-8 lg:mt-6 xl:mt-16"></div>
         </div>
 
+        {{--
         <div class="flex justify-center">
             <a class="button button-golden-solid xs-sm:text-sm xs-sm:mt-8 md:mt-12 lg-xl:mt-16" href="#">Каталог стилей</a>
         </div>
+        --}}
 
     </section>
 
+    {{--
     <section class="container-fluid xs-sm:mt-12 md:mt-24 lg:mt-28 xl:mt-36 xs-md:py-8 lg:py-16 xl:py-20 bg-grey-20">
         <div class="container flex xs-md:flex-col flex-center">
             <h2 class="xs-sm:text-2xl md-lg:text-4xl xl:text-5xl xs-md:text-center">Полезные чек-листы для самостоятельного ремонта</h2>
             <a class="button button-golden-solid xs-md:mt-6 xs-sm:text-sm" href="#">Получить чек-листы</a>
         </div>
     </section>
+    --}}
 
     <section class="xs-sm:my-12 md:my-24 lg:my-28 xl:my-36">
 
