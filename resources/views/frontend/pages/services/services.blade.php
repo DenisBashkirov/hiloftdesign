@@ -2,7 +2,7 @@
 
 @section('main_content')
 
-    @component('frontend.sections.title-screen', ['page_h1'=>'Дизайн квартир', 'title_screen_bg'=>$service_name])
+    @component('frontend.sections.title-screen', ['title_screen_bg'=>$service_name])
     @endcomponent
 
     <section class="pricing xs-sm:my-12 md:my-24 lg:my-28 xl:my-36">

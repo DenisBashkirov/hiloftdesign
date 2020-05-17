@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\NavMenuItem;
+use App\Page;
 use Illuminate\Support\Facades\Schema;
 
 /*
@@ -18,10 +18,15 @@ use Illuminate\Support\Facades\Schema;
 
 
 Route::namespace('Frontend')->group(function () {
-    if(Schema::hasTable('nav_menu_items')) {
-        foreach (NavMenuItem::all() as $nav_item) {
-            Route::get($nav_item->uri, ['uses' => 'FrontendOutputController@' . $nav_item->route, 'as' => $nav_item->route]);
+    if(Schema::hasTable('pages')) {
+        foreach (Page::all() as $page) {
+
+            if(strpos($page->route, '/') !== false) {
+                $route_array = explode('/', $page->route);
+                Route::get($page->route, ['uses' => 'FrontendOutputController@' . $route_array[0], 'as' => $route_array[0]]);
+            } else {
+                Route::get($page->urn, ['uses' => 'FrontendOutputController@' . $page->route, 'as' => $page->route]);
+            }
         }
     }
-    Route::get('/services/{service_name}', ['uses' => 'FrontendOutputController@services', 'as' => 'services']);
 });

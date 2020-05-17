@@ -9,9 +9,9 @@
                     <span class="xs-sm:hidden">Дизайн интерьера</span>
                 </a>
                 <span class="breadcrumbs-arrow icon-arrow-right"></span>
-                <span>{{ $page_h1 }}</span>
+                <span>{{ $page->h1 }}</span>
             </div>
-            <h1 class="font-bold xs-sm:text-3xl md-xl:text-5xl xs-md:text-center">{{ $page_h1 }}</h1>
+            <h1 class="font-bold xs-sm:text-3xl md-xl:text-5xl xs-md:text-center">{{ $page->h1 }}</h1>
         </div>
 
     </div>

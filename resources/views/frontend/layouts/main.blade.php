@@ -8,6 +8,8 @@
 
     @include('frontend.sources.favicons')
 
+    <title>{{ $page->title }}</title>
+
     <meta property="og:type" content="product" />
     <meta property="og:image" content="{{ asset('favicons/og-image.jpg') }}"/>
     <meta property="og:title" content="Студия современного дизайна интерьеров | Hiloft Design Studio" />
@@ -18,7 +20,7 @@
     <meta property="product:price:currency" content="" />
     <meta property="og:availability" content="instock" />
 
-    <title>Document</title>
+    <meta type="description" content="{{ $page->meta_description }}">
 
     @if(env('APP_ENV') == 'production')
         <link rel="stylesheet" href="{{ asset('css/frontend.min.css') }}">

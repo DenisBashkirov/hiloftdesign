@@ -2,7 +2,7 @@
 
 @section('main_content')
 
-    @component('frontend.sections.title-screen', ['page_h1'=>'Контакты', 'title_screen_bg'=>'contacts'])
+    @component('frontend.sections.title-screen', ['title_screen_bg'=>'contacts'])
     @endcomponent
 
     <div class="container xs-sm:py-12 md-lg:py-24 xl:py-36 xs-md:sy-8 lg-xl:sy-12">
