@@ -18,6 +18,8 @@ use Illuminate\Support\Facades\Schema;
 
 
 Route::namespace('Frontend')->group(function () {
+
+    // Перебор из базы данных
     if(Schema::hasTable('pages')) {
         foreach (Page::all() as $page) {
 
@@ -29,4 +31,7 @@ Route::namespace('Frontend')->group(function () {
             }
         }
     }
+
+    Route::post('/thanks', ['uses' => 'FrontendOutputController@thanks', 'as' => 'thanks']);
+
 });

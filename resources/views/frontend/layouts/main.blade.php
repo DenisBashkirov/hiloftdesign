@@ -31,13 +31,16 @@
     @include('frontend.sources.styles')
 
 </head>
-<body>
+<body class="minh-screen flex flex-col">
 
-@include('frontend.sections.header')
-@yield('main_content')
-@include('frontend.sections.footer')
+    @include('frontend.sections.header')
 
-@include('frontend.sources.scripts')
-@yield('page_scripts')
+    @yield('main_content')
+
+    @include('frontend.sections.footer')
+
+    @include('frontend.sources.scripts')
+    @yield('page_scripts')
+
 </body>
 </html>

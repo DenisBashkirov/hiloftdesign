@@ -1,4 +1,4 @@
-<footer class="text-white bg-gradient-dark xs-sm:py-16 md:py-12 lg-xl:py-20">
+<footer class="container-fluid as-end text-white bg-gradient-dark xs-sm:py-16 md:py-12 lg-xl:py-20">
     <div class="container">
         <div class="flex xs-sm:flex-col md-xl:flex-row md-xl:justify-between md-xl:flex-center xs-sm:text-center">
 

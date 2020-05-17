@@ -47,6 +47,13 @@ class PagesSeeder extends Seeder
                 'title' => 'Контактные данные и способы связи | Студия дизайна интерьеров',
                 'meta_description' => '',
             ],
+            [
+                'route' => 'thanks',
+                'urn' => '/thanks',
+                'h1' => 'Спасибо!',
+                'title' => 'Спасибо за заявку | Студия дизайна интерьеров',
+                'meta_description' => '',
+            ],
         ];
 
         DB::table('pages')->insert($data);

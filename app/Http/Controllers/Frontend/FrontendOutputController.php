@@ -85,4 +85,8 @@ class FrontendOutputController extends FrontendBaseController
     public function contacts() {
         return $this->renderOutput();
     }
+
+    public function thanks() {
+        return $this->renderOutput();
+    }
 }
