@@ -346,4 +346,21 @@ $(document).ready(function () {
         }
     });
 
+
+    /*
+    ANCHOR SCROLL
+     */
+    let header = document.querySelector('.header');
+    let headerHeight = parseInt(getComputedStyle(header).height) - 1;
+    let offset = 30;
+
+    $("a[href^='#']").click(function(e){
+        e.preventDefault();
+        let _href = $(this).attr("href");
+        let paddingTop = parseInt($(_href).css('paddingTop').replace('px', ''));
+        let scrollTop = ($(_href).offset().top - headerHeight + offset)+"px";
+        console.log(scrollTop)
+        $("html, body").animate({scrollTop: scrollTop}, 1200, 'easeInOutQuart');
+    });
+
 });
