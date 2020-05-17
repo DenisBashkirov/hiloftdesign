@@ -117,9 +117,10 @@ gulp.task('uncss', function () {
                 'http://hiloftdesign/contacts',
             ],
             ignore: [
-                '.bg-title-screen--home.no-webp',
                 /.is-active/,
-                '.header--sticky'
+                /.swiper*/,
+                '.header--sticky',
+                /.sx-/
             ]
         })
     ];
