@@ -8,9 +8,9 @@
 <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-icon-152x152.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png">
 <link rel="icon" type="image/png" sizes="192x192"  href="/favicons/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicons/apple-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicons/apple-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicons/apple-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
 <link rel="manifest" href="/favicons/manifest.json">
 <meta name="msapplication-TileColor" content="#414345">
 <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
