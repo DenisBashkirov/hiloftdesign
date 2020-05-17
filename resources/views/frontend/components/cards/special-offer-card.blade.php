@@ -5,5 +5,5 @@
             <li>{{ $item }}</li>
         @endforeach
     </ul>
-    <div class="button button-white-ghost--inverse xs-sm:w-full mt-auto text-sm">Выбрать</div>
+    <div class="button button-white-ghost--inverse xs-sm:w-full mt-auto text-sm js-modal-open" data-modal="{{ $modal_name }}">Выбрать</div>
 </div>

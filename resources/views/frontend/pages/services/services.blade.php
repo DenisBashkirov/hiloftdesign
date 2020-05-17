@@ -15,13 +15,43 @@
             <div class="pricing-cards-swiper swiper-container">
                 <div class="swiper-wrapper">
 
-                    @component('frontend.components.cards.pricing-card', ['title'=>'Базовый', 'price'=>'1190', 'bg'=>'basic'])
+                    @component('frontend.components.cards.pricing-card', ['title'=>'Базовый', 'price'=>'1190', 'bg'=>'basic', 'data_modal'=>'pricing_basic'])
+                        @slot('options')
+                            <li>Обмеры</li>
+                            <li>Планировочное решение</li>
+                            <li>Строительные чертежи</li>
+                            <li class="op-50">3D визуализации</li>
+                            <li class="op-50">Подбор материалов</li>
+                            <li class="op-50">Ссылки на материалы</li>
+                            <li class="op-50">Проведение тендера</li>
+                            <li class="op-50">Авторский надзор</li>
+                        @endslot
                     @endcomponent
 
-                    @component('frontend.components.cards.pricing-card', ['title'=>'Комфорт', 'price'=>'2390', 'bg'=>'comfort'])
+                    @component('frontend.components.cards.pricing-card', ['title'=>'Комфорт', 'price'=>'2390', 'bg'=>'comfort', 'data_modal'=>'pricing_comfort'])
+                            @slot('options')
+                                <li>Обмеры</li>
+                                <li>Планировочное решение</li>
+                                <li>Строительные чертежи</li>
+                                <li>3D визуализации</li>
+                                <li>Подбор материалов</li>
+                                <li>Ссылки на материалы</li>
+                                <li>Проведение тендера</li>
+                                <li class="op-50">Авторский надзор</li>
+                            @endslot
                     @endcomponent
 
-                    @component('frontend.components.cards.pricing-card', ['title'=>'Премиум', 'price'=>'3190', 'bg'=>'premium'])
+                    @component('frontend.components.cards.pricing-card', ['title'=>'Премиум', 'price'=>'3190', 'bg'=>'premium', 'data_modal'=>'pricing_premium'])
+                            @slot('options')
+                                <li>Обмеры</li>
+                                <li>Планировочное решение</li>
+                                <li>Строительные чертежи</li>
+                                <li>3D визуализации</li>
+                                <li>Подбор материалов</li>
+                                <li>Ссылки на материалы</li>
+                                <li>Проведение тендера</li>
+                                <li>Авторский надзор</li>
+                            @endslot
                     @endcomponent
 
                 </div>
@@ -48,7 +78,8 @@
                             'подключаем вас к рабочему чату с дизайнером, архитектором, проектировщиком и комплектатором',
                             'разрабатываем 3 планировочных решения для вашего сценария жизни',
                             'выбираем один из них и доводим до 100% результата'
-                        ]
+                        ],
+                       'modal_name'=>'special_offer_test-drive'
                         ])
                     @endcomponent
 
@@ -57,7 +88,8 @@
                        'price'=>'2900',
                        'options_list'=>[
                            'исправим или доведём до конца сторонний незавершённый проект'
-                       ]
+                       ],
+                       'modal_name'=>'special_offer_trade-in'
                        ])
                     @endcomponent
 
@@ -68,7 +100,8 @@
                            'архитектор подготавливает несоклько вариантов идей',
                            'часовая онлайн-встреча с обсуждением уже подготовленных идей',
                            'итоговые наброски и ссылки отправляются на почту'
-                       ]
+                       ],
+                       'modal_name'=>'special_offer_online-consult'
                        ])
                     @endcomponent
 
@@ -79,7 +112,8 @@
                            'смета с нуля по вашей визуализации',
                            'доработка сметы: проверим наличие, цены и скидки по базе проверенных поставщиков',
                            'организация закупки и доставки персональным менеджером'
-                       ]
+                       ],
+                       'modal_name'=>'special_offer_audit'
                        ])
                     @endcomponent
 
@@ -93,13 +127,25 @@
 
 @section('page_modals')
 
-    @component('frontend.components.modals.modal', ['headline'=>'Заявка', 'modal_name'=>'pricing_basic'])
+    @component('frontend.components.modals.modal', ['headline'=>'Тариф Базовый', 'modal_name'=>'pricing_basic'])
     @endcomponent
 
-    @component('frontend.components.modals.modal', ['headline'=>'Заявка', 'modal_name'=>'pricing_comfort'])
+    @component('frontend.components.modals.modal', ['headline'=>'Тариф Комфорт', 'modal_name'=>'pricing_comfort'])
     @endcomponent
 
-    @component('frontend.components.modals.modal', ['headline'=>'Заявка', 'modal_name'=>'pricing_premium'])
+    @component('frontend.components.modals.modal', ['headline'=>'Тариф Премиум', 'modal_name'=>'pricing_premium'])
+    @endcomponent
+
+    @component('frontend.components.modals.modal', ['headline'=>'Тест-драйв', 'modal_name'=>'special_offer_test-drive'])
+    @endcomponent
+
+    @component('frontend.components.modals.modal', ['headline'=>'Трейд-ин', 'modal_name'=>'special_offer_trade-in'])
+    @endcomponent
+
+    @component('frontend.components.modals.modal', ['headline'=>'Онлайн консультация', 'modal_name'=>'special_offer_online-consult'])
+    @endcomponent
+
+    @component('frontend.components.modals.modal', ['headline'=>'Аудит и доработка', 'modal_name'=>'special_offer_audit'])
     @endcomponent
 
 @endsection

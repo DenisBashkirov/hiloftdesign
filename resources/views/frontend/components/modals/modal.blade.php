@@ -1,7 +1,7 @@
 <div class="modal hidden container-fluid fixed h-screen top-0" data-modal-name="{{ $modal_name }}">
     <div class="overlay bg-grey-20 op-90"></div>
     <div class="modal-container container flex h-full flex-center justify-center">
-        <div class="modal-body py-20 px-10 bg-gradient-dark text-white b-radius-2 shadow">
+        <div class="modal-body xs:py-10 sm-xl:py-20 xs:px-8 sm-xl:px-10 bg-gradient-dark text-white b-radius-2 shadow">
 
             <p class="modal-headline font-bold xs-sm:text-3xl md:text-5xl lg-xl:text-4xl text-center">{{ $headline }}</p>
 

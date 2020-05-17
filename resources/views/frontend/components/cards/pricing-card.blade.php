@@ -8,14 +8,7 @@
         </div>
     </div>
     <ol class="pricing-card__options-list xs-sm:text-xs sy-3">
-        <li>Обмеры</li>
-        <li>Планировочное решение</li>
-        <li>Строительные чертежи</li>
-        <li>3D визуализации</li>
-        <li>Подбор материалов</li>
-        <li>Ссылки на материалы</li>
-        <li>Проведение тендера</li>
-        <li>Авторский надзор</li>
+        {{ $options }}
     </ol>
-    <div class="button button-white-solid xs-sm:w-full text-sm js-modal-open" data-modal="pricing">Выбрать</div>
+    <div class="button button-white-solid xs-sm:w-full text-sm js-modal-open" data-modal="{{ $data_modal }}">Выбрать</div>
 </div>
