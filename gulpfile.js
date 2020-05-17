@@ -119,8 +119,7 @@ gulp.task('uncss', function () {
             ignore: [
                 '.bg-title-screen--home.no-webp',
                 /.is-active/,
-                /.swiper/,
-                'header-sticky'
+                '.header--sticky'
             ]
         })
     ];
