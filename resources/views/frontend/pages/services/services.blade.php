@@ -90,3 +90,16 @@
     </section>
 
 @endsection
+
+@section('page_modals')
+
+    @component('frontend.components.modals.modal', ['headline'=>'Заявка', 'modal_name'=>'pricing_basic'])
+    @endcomponent
+
+    @component('frontend.components.modals.modal', ['headline'=>'Заявка', 'modal_name'=>'pricing_comfort'])
+    @endcomponent
+
+    @component('frontend.components.modals.modal', ['headline'=>'Заявка', 'modal_name'=>'pricing_premium'])
+    @endcomponent
+
+@endsection

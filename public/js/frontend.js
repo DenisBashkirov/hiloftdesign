@@ -312,4 +312,23 @@ $(document).ready(function () {
         }
     });
 
+
+    /*
+    MODALS
+     */
+    let $modalButton = $('.js-modal-open');
+    $modalButton.on('click', function () {
+        let $modalName = $(this).attr('data-modal');
+        let $modal = $('[data-modal-name="' + $modalName + '"]')
+        $modal.fadeIn();
+    });
+
+    let $modal = $('.modal');
+
+    $modal.on('click', function (e) {
+        if(e.target.classList.contains('modal-container')) {
+            $(this).fadeOut();
+        }
+    });
+
 });

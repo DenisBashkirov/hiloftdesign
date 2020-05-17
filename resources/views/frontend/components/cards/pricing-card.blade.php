@@ -17,5 +17,5 @@
         <li>Проведение тендера</li>
         <li>Авторский надзор</li>
     </ol>
-    <div class="button button-white-solid xs-sm:w-full text-sm">Выбрать</div>
+    <div class="button button-white-solid xs-sm:w-full text-sm js-modal-open" data-modal="pricing">Выбрать</div>
 </div>
