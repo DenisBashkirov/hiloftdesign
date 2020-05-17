@@ -23,7 +23,7 @@
     <meta type="description" content="{{ $page->meta_description }}">
 
     @if(env('APP_ENV') == 'production')
-        @include('frontend.sources.services');
+        @include('frontend.sources.services')
         <link rel="stylesheet" href="{{ asset('css/frontend.min.css') }}">
     @else
         <link rel="stylesheet" href="{{ asset('css/frontend.css') }}">
