@@ -6,7 +6,9 @@
             <p class="modal-headline font-bold xs-sm:text-3xl md:text-5xl lg-xl:text-4xl text-center">{{ $headline }}</p>
 
             <form class="flex flex-col flex-center sy-12 mt-12" action="{{ route('thanks') }}" method="post">
-                <input class="input xs-sm:text-xl md-xl:text-2xl" type="text" placeholder="Ваше имя" required">
+                @csrf
+                <input type="hidden" name="form_name" value="{{ $headline }}">
+                <input class="input xs-sm:text-xl md-xl:text-2xl" type="text" placeholder="Ваше имя" required>
                 <input class="input xs-sm:text-xl md-xl:text-2xl" type="text" placeholder="Телефон" required>
                 <button class="button button-golden-solid xs-sm:w-40 md-xl:w-60 md-xl:text-lg">Готово</button>
             </form>

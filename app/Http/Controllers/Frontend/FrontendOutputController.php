@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Frontend;
 
+use App\Config;
 use App\Events\LeadFormSubmitted;
 use App\Feedback;
 use App\NavMenuItem;
@@ -21,6 +22,38 @@ class FrontendOutputController extends FrontendBaseController
     protected $page;
 
     public function __construct(Request $request) {
+
+        // сохраняем utm из url в сессию
+        foreach ($request->input() as $key=>$val) {
+            if(strripos($key, 'utm') === 0) {
+                session([$key => $val]);
+            }
+        }
+
+        // Случай перехода не по рекламе (нет utm, но есть источник)
+        if(!session('utm_source') & array_key_exists('HTTP_REFERER', $_SERVER)) {
+            $referer = $_SERVER['HTTP_REFERER'];
+            $referer = explode('//', $referer)[1];
+            if (mb_strpos($referer, 'www') === false) {
+                $source = explode('.', $referer)[0];
+            } else {
+                $source = explode('.', $referer)[1];
+            }
+
+            session(['utm_source' => $source]);
+
+            if ($source = 'google' || $source = 'yandex') {
+                session(['utm_medium' => 'organic']);
+            }
+
+        }
+
+        // Случай прямого входа на сайт (нет utm_source и нет источника перехода)
+        if(!session('utm_source') & !array_key_exists('HTTP_REFERER', $_SERVER)) {
+            session(['utm_source' => 'direct']);
+        }
+
+
         $this->route_name = Route::currentRouteName();
         $this->template = 'frontend.pages.' . $this->route_name . '.' . $this->route_name;
         View::share('current_route', $this->route_name);
@@ -61,32 +94,16 @@ class FrontendOutputController extends FrontendBaseController
         return $this->renderOutput();
     }
 
-    public function files() {
-        $files = [
-            [
-                'header'=>'Как сэкономить на ремонте 400&nbsp;000&nbsp;р',
-                'subheader'=>'Чек-лист, который поможет вам избежать самых распространённых ошибок'
-            ],
-            [
-                'header'=>'90% делают эти ошибки в ремонте ',
-                'subheader'=>'Чек-лист, который поможет вам избежать самых распространённых ошибок'
-            ],
-            [
-                'header'=>'Как сделать ремонт в кризис',
-                'subheader'=>'Чек-лист, который поможет вам избежать самых распространённых ошибок'
-            ]
-        ];
-
-        $this->varsAdd('files', $files);
-
-        return $this->renderOutput();
-    }
-
     public function contacts() {
         return $this->renderOutput();
     }
 
-    public function thanks() {
+    public function thanks(Request $request) {
+
+        $data = array_merge($request->all(), $request->session()->all());
+
+        event(new LeadFormSubmitted($data));
+
         return $this->renderOutput();
     }
 }
