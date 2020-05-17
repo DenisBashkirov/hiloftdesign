@@ -32,6 +32,7 @@ Route::namespace('Frontend')->group(function () {
         }
     }
 
+    // TODO Сделать правильный роутинг с учётом методов, не забыть, что gulp uncss потребует доступ через GET к нужным страницам
     Route::post('/thanks', ['uses' => 'FrontendOutputController@thanks', 'as' => 'thanks']);
 
 });

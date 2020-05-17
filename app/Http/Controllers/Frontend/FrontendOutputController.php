@@ -100,9 +100,11 @@ class FrontendOutputController extends FrontendBaseController
 
     public function thanks(Request $request) {
 
-        $data = array_merge($request->all(), $request->session()->all());
-
-        event(new LeadFormSubmitted($data));
+        // TODO Зкарыть дыру в доступе через GET!
+        if($request->method() == 'POST') {
+            $data = array_merge($request->all(), $request->session()->all());
+            event(new LeadFormSubmitted($data));
+        }
 
         return $this->renderOutput();
     }
