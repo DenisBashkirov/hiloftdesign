@@ -60,7 +60,7 @@
 
     </section>
 
-    <section class="special-offers xs-sm:my-12 md:my-24 lg:my-28 xl:my-36" id="special-offers">
+    <section class="special-offers xs-sm:py-12 md:py-24 lg:py-28 xl:py-36" id="special-offers">
 
         <div class="container">
             <h2 class="text-golden">Спецпредложения</h2>
