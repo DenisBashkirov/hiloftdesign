@@ -36,7 +36,7 @@
 
     <div class="xs-sm:hidden md-lg:flex-order-3 inline-flex flex-col flex-end">
         <a class="font-bold md:text-lg lg-xl:text-xl" href="tel:{{ phone_to_int($phone) }}">{{ $phone }}</a>
-        <span class="md-xl:mt-1 op-90">заказать звонок</span>
+        <span class="md-xl:mt-1 op-90 cursor-pointer hover-underline" onclick="jivo_api.open({start : 'call'});">заказать звонок</span>
     </div>
 
     <div class="container hidden fixed flex flex-col w-screen h-screen left-0 top-0 pt-24 sy-12 bg-gradient-dark js-mobile_nav">
@@ -48,7 +48,7 @@
 
         <div class="inline-flex flex-col flex-start sy-3">
             <a class="font-bold text-2xl" href="tel:{{ phone_to_int($phone) }}">{{ $phone }}</a>
-            <span class="text-lg op-90">заказать звонок</span>
+            <span class="text-lg op-90 cursor-pointer hover-underline" onclick="jivo_api.open({start : 'call'});">заказать звонок</span>
         </div>
 
         <a class="button button-white-ghost text-sm" href="#">Заказать дизайн</a>
