@@ -89852,8 +89852,8 @@ p {
   opacity: 1 !important; }
   @media (max-width: 767px) {
     .swiper-pagination-bullet {
-      width: .75rem !important;
-      height: .75rem !important; } }
+      width: .5rem !important;
+      height: .5rem !important; } }
 
 .swiper-pagination-bullet-active {
   background-color: #5E6366 !important;
