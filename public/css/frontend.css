@@ -89691,6 +89691,12 @@ input {
 /* */
 /* CONTAINERS */
 /* */
+.breadcrumbs-arrow {
+  font-size: 0.7em; }
+
+/* */
+/* CONTAINERS */
+/* */
 .b-radius-0 {
   border-radius: 0; }
 
@@ -89702,12 +89708,6 @@ input {
 
 .b-radius-xl {
   border-radius: 10px; }
-
-/* */
-/* CONTAINERS */
-/* */
-.breadcrumbs-arrow {
-  font-size: 0.7em; }
 
 /* */
 /* CONTAINERS */
@@ -89758,6 +89758,15 @@ input {
   transition: all 0.2s;
   white-space: nowrap;
   cursor: pointer; }
+
+/* */
+/* CONTAINERS */
+/* */
+.hover-translate-up {
+  display: inline-block;
+  transition: all 0.2s; }
+  .hover-translate-up:hover {
+    transform: translateY(-2px); }
 
 /* */
 /* CONTAINERS */
