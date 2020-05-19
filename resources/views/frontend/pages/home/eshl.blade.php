@@ -1,4 +1,4 @@
-<section class="xs-sm:py-12 md-lg:py-20 xl:py-32 bg-grey-20" id="eshl">
+<section class="xs-sm:py-12 md-lg:py-20 xl:py-28 bg-grey-20" id="eshl">
 
     <div class="container">
         <p class="inline-flex flex-col font-Montserrat font-extrabold xs:text-3xl sm:text-4xl md-lg:text-5xl xl:text-6xl xs-sm:ls-2 md-xl:ls-5">
