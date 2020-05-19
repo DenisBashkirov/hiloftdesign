@@ -27,6 +27,8 @@
 
     @include('frontend.pages.home.pop-styles')
 
+    @include('frontend.pages.home.team-people')
+
     {{--
     <section class="container-fluid xs-sm:mt-12 md:mt-24 lg:mt-28 xl:mt-36 xs-md:py-8 lg:py-16 xl:py-20 bg-grey-20">
         <div class="container flex xs-md:flex-col flex-center">
