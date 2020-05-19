@@ -16,7 +16,8 @@ class CreatePagesTable extends Migration
         if(!Schema::hasTable('pages')) {
             Schema::create('pages', function (Blueprint $table) {
                 $table->id();
-                $table->string('route');
+                $table->string('route_name');
+                $table->string('route_method');
                 $table->string('urn');
                 $table->string('h1');
                 $table->string('title');

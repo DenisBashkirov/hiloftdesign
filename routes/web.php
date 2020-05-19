@@ -23,16 +23,35 @@ Route::namespace('Frontend')->group(function () {
     if(Schema::hasTable('pages')) {
         foreach (Page::all() as $page) {
 
-            if(strpos($page->route, '/') !== false) {
-                $route_array = explode('/', $page->route);
-                Route::get($page->route, ['uses' => 'FrontendOutputController@' . $route_array[0], 'as' => $route_array[0]]);
+            if (env('APP_ENV') != 'production')
+                $page->route_method = 'get';
+
+            if(strpos($page->route_name, '/') !== false) {
+
+                $route_array = explode('/', $page->route_name);
+
+                switch ($page->route_method) {
+                    case 'post':
+                        Route::post($page->route_name, ['uses' => 'FrontendOutputController@' . $route_array[0], 'as' => $route_array[0]]);
+                        break;
+                    default:
+                        Route::get($page->route_name, ['uses' => 'FrontendOutputController@' . $route_array[0], 'as' => $route_array[0]]);
+                        break;
+                }
+
             } else {
-                Route::get($page->urn, ['uses' => 'FrontendOutputController@' . $page->route, 'as' => $page->route]);
+
+                switch ($page->route_method) {
+                    case 'post':
+                        Route::post($page->urn, ['uses' => 'FrontendOutputController@' . $page->route_name, 'as' => $page->route_name]);
+                        break;
+                    default:
+                        Route::get($page->urn, ['uses' => 'FrontendOutputController@' . $page->route_name, 'as' => $page->route_name]);
+                        break;
+                }
+
             }
         }
     }
-
-    // TODO Сделать правильный роутинг с учётом методов, не забыть, что gulp uncss потребует доступ через GET к нужным страницам
-    Route::post('/thanks', ['uses' => 'FrontendOutputController@thanks', 'as' => 'thanks']);
 
 });
