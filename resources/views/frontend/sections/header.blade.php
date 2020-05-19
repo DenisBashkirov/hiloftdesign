@@ -35,7 +35,7 @@
     </div>
 
     <div class="xs-sm:hidden md-lg:flex-order-3 inline-flex flex-col flex-end">
-        <a class="font-bold md:text-lg lg-xl:text-xl xl:hover-translate-up" href="tel:{{ phone_to_int($phone) }}">{{ $phone }}</a>
+        <a class="font-bold md:text-lg lg-xl:text-xl hover-underline" href="tel:{{ phone_to_int($phone) }}">{{ $phone }}</a>
         <span class="md-xl:mt-1 op-90 cursor-pointer hover-underline" onclick="jivo_api.open({start : 'call'});">заказать звонок</span>
     </div>
 
