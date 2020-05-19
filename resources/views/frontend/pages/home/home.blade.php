@@ -16,7 +16,7 @@
         </div>
 
         <div class="flex justify-center">
-            <a class="button button-golden-solid xs-sm:text-sm xs-sm:mt-8 md:mt-12 lg-xl:mt-16" href="{{ route('portfolio') }}">Все проекты</a>
+            <a class="button button-golden-solid xs-sm:text-sm xs-sm:mt-8 md:mt-12 lg-xl:mt-16" href="{{ route('portfolio') }}">Все примеры</a>
         </div>
 
     </section>
