@@ -4,7 +4,7 @@
 
     @include('frontend.pages.home.title-screen')
 
-    <section class="xs-sm:my-12 md:my-24 lg:my-28 xl:my-36">
+    <section class="xs-sm:my-12 md:my-24 lg:my-28 xl:my-32">
 
         <div class="container">
             <h2 class="text-golden">Портфолио</h2>
