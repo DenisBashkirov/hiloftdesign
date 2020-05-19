@@ -60,14 +60,14 @@
 
     </section>
 
-    <section class="special-offers xs-sm:py-12 md:py-24 lg:py-28 xl:py-36" id="special-offers">
+    <section class="special-offers xs-sm:pb-12 md:pb-24 lg:pb-28 xl:pb-36" id="special-offers">
 
         <div class="container">
             <h2 class="text-golden">Спецпредложения</h2>
         </div>
 
         <div class="xl:container xs-sm:mt-6 md-lg:mt-12 xl:mt-20">
-            <div class="special-offers-swiper swiper-container flex flex-wrap py-1 xl:px-1">
+            <div class="special-offers-swiper swiper-container flex flex-wrap pb-1 xl:px-1">
                 <div class="swiper-wrapper">
 
                     @component('frontend.components.cards.special-offer-card', [
