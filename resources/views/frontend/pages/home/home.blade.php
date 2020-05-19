@@ -21,7 +21,7 @@
 
     </section>
 
-    @include('frontend.sections.eshl')
+    @include('frontend.pages.home.eshl')
 
     @include('frontend.sections.service-cards')
 
