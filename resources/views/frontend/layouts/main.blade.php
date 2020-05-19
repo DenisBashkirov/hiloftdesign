@@ -41,7 +41,11 @@
     @include('frontend.sections.footer')
 
     <div class="modals z-5">
+
+        @include('frontend.components.modals.modal', ['modal_name'=>'order-design', 'headline'=>'Заказать дизайн'])
+
         @yield('page_modals')
+
     </div>
 
     @include('frontend.sources.scripts')

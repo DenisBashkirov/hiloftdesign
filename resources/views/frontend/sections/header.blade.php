@@ -51,7 +51,7 @@
             <span class="text-lg op-90 cursor-pointer hover-underline" onclick="jivo_api.open({start : 'call'});">заказать звонок</span>
         </div>
 
-        <a class="button button-white-ghost text-sm" href="#">Заказать дизайн</a>
+        <span class="button button-white-ghost text-sm js-modal-open" data-modal="order-design">Заказать дизайн</span>
 
     </div>
 
