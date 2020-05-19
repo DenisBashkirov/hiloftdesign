@@ -1,4 +1,4 @@
-<section class="pop-styles xs-sm:mt-12 md:mt-24 lg:mt-28 xl:mt-36">
+<section class="pop-styles xs-sm:mt-3 md:mt-4 lg:mt-6 xl:mt-8">
 
     <div class="container">
         <h2 class="text-golden">Популярные стили</h2>
