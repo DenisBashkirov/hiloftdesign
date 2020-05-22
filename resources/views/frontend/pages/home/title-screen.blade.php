@@ -25,7 +25,7 @@
             </div>
         </div>
 
-        <a class="lg-xl:absolute lg-xl:bottom-8 as-center text-3xl anim--arrow-down" href="#">
+        <a class="lg-xl:absolute lg-xl:bottom-8 as-center text-3xl anim--arrow-down no-underline" href="#portfolio">
             <i class="icon-arrow"></i>
         </a>
 
