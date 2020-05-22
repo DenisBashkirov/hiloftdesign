@@ -53,6 +53,14 @@ class PagesSeeder extends Seeder
                 'meta_description' => '',
             ],
             [
+                'route_name' => 'privacy_policy',
+                'route_method' => 'get',
+                'urn' => '/privacy_policy',
+                'h1' => 'Политика конфиденциальности',
+                'title' => 'Политика конфиденциальности | Студия дизайна интерьеров HL Studio',
+                'meta_description' => '',
+            ],
+            [
                 'route_name' => 'thanks',
                 'route_method' => 'post',
                 'urn' => '/thanks',
