@@ -2,7 +2,7 @@
 
 @section('main_content')
 
-    @component('frontend.sections.title-screen', ['title_screen_bg'=>'portfolio'])
+    @component('frontend.sections.title-screen')
     @endcomponent
 
 @endsection
