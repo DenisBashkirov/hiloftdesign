@@ -15,7 +15,7 @@
                 <source srcset="{{ asset('img/logo/white_xs@2.webp') }}" type="image/webp">
                 <img class="xs:w-60 sm:w-72 md:w-100 lg:w-80 xl:h-20" src="{{ asset('img/logo/white_xs@2.png') }}" alt="Hiloft Design Studio логотип белый" />
             </picture>
-            <h1 class="lg-xl:w-100 font-bold xs:text-xl sm:text-3xl md:text-5xl lg-xl:text-4xl xs-md:text-center">{{ $page->h1 }}</h1>
+            <h1 class="lg-xl:w-136 font-bold xs:text-xl sm:text-3xl md:text-5xl lg-xl:text-4xl xs-md:text-center">{{ $page->h1 }}</h1>
         </div>
 
         <div class="md:as-center xs-md:flex xs-md:flex-col xs-md:flex-center md:w-120 lg:mt-24 xl:mt-36 sy-5 xs-md:text-center">

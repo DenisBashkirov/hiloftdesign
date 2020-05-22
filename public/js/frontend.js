@@ -363,4 +363,10 @@ $(document).ready(function () {
         $("html, body").animate({scrollTop: scrollTop}, 1200, 'easeInOutQuart');
     });
 
+
+    /*
+    HYPHENATE
+     */
+    $('.hyphenate').hyphenate();
+
 });
