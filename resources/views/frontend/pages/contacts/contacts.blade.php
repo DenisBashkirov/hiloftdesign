@@ -11,14 +11,14 @@
 
             <div class="md-xl:w-cols-6 flex flex-col xs-md:sy-2 lg-xl:sy-3 xs-md:text-xl lg-xl:text-2xl">
                 <span class="font-medium">Отдел по работе с клиентами</span>
-                <a href="mailto:infot@hiloftdesign.ru no-underline" class="labeled font-light">
+                <a class="labeled font-light no-underline" href="mailto:infot@hiloftdesign.ru">
                     <i class="icon-mail"></i>
                     <span>info@hiloftdesign.ru</span>
                 </a>
             </div>
 
             <div class="md-xl:w-cols-6 xs-md:text-2xl lg-xl:text-4xl lg-xl:text-right">
-            <a class="labeled font-bold" href="tel:{{ phone_to_int($phone) }}">
+            <a class="labeled font-bold no-underline" href="tel:{{ phone_to_int($phone) }}">
                 <i class="icon-phone"></i>
                 <span>{{ $phone }}</span>
             </a>
