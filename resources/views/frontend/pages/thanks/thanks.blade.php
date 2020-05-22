@@ -2,7 +2,7 @@
 
 @section('main_content')
 
-    <main class="container-fluid flex-grow-1 flex flex-center xs-sm:pt-12 md:pt-24 lg:pt-28 xl:pt-36 text-white bg-gradient-dark">
+    <div class="flex-grow-1 flex flex-center xs-sm:pt-12 md:pt-24 lg:pt-28 xl:pt-36 text-white bg-gradient-dark">
         <div class="container flex flex-col justify-center flex-center xs-sm:h-screen md-xl:h-full text-center">
 
             <div>
@@ -13,6 +13,6 @@
             <a class="button button-white-ghost w-40 mt-20" href="{{ url()->previous() }}">Назад</a>
 
         </div>
-    </main>
+    </div>
 
 @endsection

@@ -36,7 +36,9 @@
 
     @include('frontend.sections.header')
 
-    @yield('main_content')
+    <div class="container-fluid flex-grow-1 flex flex-col">
+        @yield('main_content')
+    </div>
 
     @include('frontend.sections.footer')
 
