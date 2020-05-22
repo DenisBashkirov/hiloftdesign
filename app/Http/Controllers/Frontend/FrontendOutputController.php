@@ -62,7 +62,6 @@ class FrontendOutputController extends FrontendBaseController
         if ($current_urn == '')
             $current_urn = '/';
         $this->page = Page::where('urn', $current_urn)->first();
-        //$this->varsAdd('page', $this->page);
         View::share('page', $this->page);
 
         $company_phone = '8 (929) 669 96 97';

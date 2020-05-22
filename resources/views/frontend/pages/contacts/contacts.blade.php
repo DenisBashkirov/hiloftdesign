@@ -11,7 +11,7 @@
 
             <div class="md-xl:w-cols-6 flex flex-col xs-md:sy-2 lg-xl:sy-3 xs-md:text-xl lg-xl:text-2xl">
                 <span class="font-medium">Отдел по работе с клиентами</span>
-                <a href="mailto:infot@hiloftdesign.ru" class="labeled font-light">
+                <a href="mailto:infot@hiloftdesign.ru no-underline" class="labeled font-light">
                     <i class="icon-mail"></i>
                     <span>info@hiloftdesign.ru</span>
                 </a>

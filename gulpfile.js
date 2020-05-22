@@ -115,6 +115,7 @@ gulp.task('uncss', function () {
                 'http://hiloftdesign/services/dizayn-kvartir',
                 'http://hiloftdesign/services/dizayn-domov',
                 'http://hiloftdesign/contacts',
+                'http://hiloftdesign/privacy-policy',
                 'http://hiloftdesign/thanks',
             ],
             ignore: [
