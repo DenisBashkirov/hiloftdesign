@@ -98,6 +98,10 @@ class FrontendOutputController extends FrontendBaseController
         return $this->renderOutput();
     }
 
+    public function privacy_policy() {
+        return $this->renderOutput();
+    }
+
     public function thanks(Request $request) {
 
         // TODO Зкарыть дыру в доступе через GET!
