@@ -23,7 +23,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        if (env('APP_ENV') == 'production')
+        if (env('HTTPS'))
             \Illuminate\Support\Facades\URL::forceScheme('https');
     }
 }

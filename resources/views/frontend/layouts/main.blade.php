@@ -24,7 +24,7 @@
 
     @if(env('APP_ENV') == 'production')
         @include('frontend.sources.services')
-        <link rel="stylesheet" href="{{ asset('css/frontend..min.css?t=' . microtime(true)) }}">
+        <link rel="stylesheet" href="{{ asset('css/frontend.min.css?t=' . microtime(true)) }}">
     @else
         <link rel="stylesheet" href="{{ asset('css/frontend.css') }}">
     @endif
