@@ -33,7 +33,7 @@
 
         </address>
 
-        <button class="button button-golden-solid">Онлайн-чат</button>
+        <button class="button button-golden-solid" onclick="jivo_api.open()">Онлайн-чат</button>
 
     </div>
 
