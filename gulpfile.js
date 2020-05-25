@@ -116,6 +116,7 @@ gulp.task('uncss', function () {
                 'http://hiloftdesign/services/dizayn-domov',
                 'http://hiloftdesign/contacts',
                 'http://hiloftdesign/privacy-policy',
+                'http://hiloftdesign/contract-offer',
                 'http://hiloftdesign/thanks',
             ],
             ignore: [
