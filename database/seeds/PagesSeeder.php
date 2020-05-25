@@ -61,6 +61,14 @@ class PagesSeeder extends Seeder
                 'meta_description' => '',
             ],
             [
+                'route_name' => 'contract_offer',
+                'route_method' => 'get',
+                'urn' => '/contract-offer',
+                'h1' => 'Договор-оферта',
+                'title' => 'Договор-оферта | Студия дизайна интерьеров HL Studio',
+                'meta_description' => '',
+            ],
+            [
                 'route_name' => 'thanks',
                 'route_method' => 'post',
                 'urn' => '/thanks',

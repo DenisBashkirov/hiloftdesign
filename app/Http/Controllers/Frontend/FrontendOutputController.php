@@ -101,6 +101,10 @@ class FrontendOutputController extends FrontendBaseController
         return $this->renderOutput();
     }
 
+    public function contract_offer() {
+        return $this->renderOutput();
+    }
+
     public function thanks(Request $request) {
 
         // TODO Зкарыть дыру в доступе через GET!
