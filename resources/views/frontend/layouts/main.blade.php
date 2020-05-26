@@ -12,7 +12,7 @@
 
     <meta property="og:type" content="product" />
     <meta property="og:image" content="{{ asset('favicons/og-image.jpg') }}"/>
-    <meta property="og:title" content="Студия современного дизайна интерьеров | Hiloft Design Studio" />
+    <meta property="og:title" content="{{ $page->h1 }}" />
     <meta property="og:description" content="Профессиональный дизайн интерьеров. Работаем по Москве и регионам." />
     <meta property="og:url" content="https://hiloftdesign.ru"/>
     <meta property="og:site_name" content="Hiloft Design" />
