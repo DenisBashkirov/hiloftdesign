@@ -56,7 +56,7 @@ Route::namespace('Frontend')->group(function () {
 
     // Редиректы
     Route::get('/gallery', function () {
-        return redirect()->route('portfolio');
+        return redirect(route('portfolio'), 301);
     });
 
 });
