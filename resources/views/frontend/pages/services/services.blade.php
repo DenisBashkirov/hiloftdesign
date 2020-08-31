@@ -15,7 +15,7 @@
             <div class="pricing-cards-swiper swiper-container">
                 <div class="swiper-wrapper">
 
-                    @component('frontend.components.cards.pricing-card', ['title'=>'Базовый', 'price'=>'1190', 'bg'=>'basic', 'data_modal'=>'pricing_basic'])
+                    @component('frontend.components.cards.pricing-card', ['title'=>'Базовый', 'price'=>'1490', 'bg'=>'basic', 'data_modal'=>'pricing_basic'])
                         @slot('options')
                             <li>Обмеры</li>
                             <li>Планировочное решение</li>
@@ -24,11 +24,14 @@
                             <li class="op-50">Подбор материалов</li>
                             <li class="op-50">Ссылки на материалы</li>
                             <li class="op-50">Проведение тендера</li>
+                            <li class="op-50">Контакты поставщиков</li>
                             <li class="op-50">Авторский надзор</li>
+                            <li class="op-50">Ссылки на мебель</li>
+                            <li class="op-50">Ссылки на свет и сантехнику</li>
                         @endslot
                     @endcomponent
 
-                    @component('frontend.components.cards.pricing-card', ['title'=>'Комфорт', 'price'=>'2390', 'bg'=>'comfort', 'data_modal'=>'pricing_comfort'])
+                    @component('frontend.components.cards.pricing-card', ['title'=>'Комфорт', 'price'=>'2490', 'bg'=>'comfort', 'data_modal'=>'pricing_comfort'])
                             @slot('options')
                                 <li>Обмеры</li>
                                 <li>Планировочное решение</li>
@@ -37,11 +40,14 @@
                                 <li>Подбор материалов</li>
                                 <li>Ссылки на материалы</li>
                                 <li>Проведение тендера</li>
+                                <li>Контакты поставщиков</li>
                                 <li class="op-50">Авторский надзор</li>
+                                <li class="op-50">Ссылки на мебель</li>
+                                <li class="op-50">Ссылки на свет и сантехнику</li>
                             @endslot
                     @endcomponent
 
-                    @component('frontend.components.cards.pricing-card', ['title'=>'Премиум', 'price'=>'3190', 'bg'=>'premium', 'data_modal'=>'pricing_premium'])
+                    @component('frontend.components.cards.pricing-card', ['title'=>'Премиум', 'price'=>'3490', 'bg'=>'premium', 'data_modal'=>'pricing_premium'])
                             @slot('options')
                                 <li>Обмеры</li>
                                 <li>Планировочное решение</li>
@@ -50,7 +56,10 @@
                                 <li>Подбор материалов</li>
                                 <li>Ссылки на материалы</li>
                                 <li>Проведение тендера</li>
+                                <li>Контакты поставщиков</li>
                                 <li>Авторский надзор</li>
+                                <li>Ссылки на мебель</li>
+                                <li>Ссылки на свет и сантехнику</li>
                             @endslot
                     @endcomponent
 
