@@ -75,7 +75,7 @@ class FrontendOutputController extends FrontendBaseController
 
         $this->varsAdd('portfolio_items', PortfolioItem::take(8)->get());
 
-        $team_people = TeamPerson::all();
+        $team_people = TeamPerson::where('active', true)->orderBy('order')->get();
         $this->varsAdd('team_people', $team_people);
 
         return $this->renderOutput();
