@@ -31,7 +31,7 @@
                         @endslot
                     @endcomponent
 
-                    @component('frontend.components.cards.pricing-card', ['title'=>'Комфорт', 'price'=>'2490', 'bg'=>'comfort', 'data_modal'=>'pricing_comfort'])
+                    @component('frontend.components.cards.pricing-card', ['title'=>'Комфорт', 'price'=>'2590', 'bg'=>'comfort', 'data_modal'=>'pricing_comfort'])
                             @slot('options')
                                 <li>Обмеры</li>
                                 <li>Планировочное решение</li>
@@ -47,7 +47,7 @@
                             @endslot
                     @endcomponent
 
-                    @component('frontend.components.cards.pricing-card', ['title'=>'Премиум', 'price'=>'3490', 'bg'=>'premium', 'data_modal'=>'pricing_premium'])
+                    @component('frontend.components.cards.pricing-card', ['title'=>'Премиум', 'price'=>'3900', 'bg'=>'premium', 'data_modal'=>'pricing_premium'])
                             @slot('options')
                                 <li>Обмеры</li>
                                 <li>Планировочное решение</li>
