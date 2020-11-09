@@ -115,4 +115,8 @@ class FrontendOutputController extends FrontendBaseController
 
         return $this->renderOutput();
     }
+
+    public function articles() {
+        return $this->renderOutput();
+    }
 }
