@@ -8,11 +8,23 @@
 
     @include('frontend.sources.favicons')
 
-    <title>{{ $page->title }}</title>
+    <title>
+        @if (isset($page->title))
+            {{ $page->title }}
+        @else
+            @yield('page_title')
+        @endif
+    </title>
 
     <meta property="og:type" content="product" />
     <meta property="og:image" content="{{ asset('favicons/og-image.jpg') }}"/>
-    <meta property="og:title" content="{{ $page->title }}" />
+    <meta property="og:title" content="
+        @if (isset($page->title))
+            {{ $page->title }}
+        @else
+            @yield('page_title')
+        @endif
+        " />
     <meta property="og:description" content="Профессиональный дизайн интерьеров. Работаем по Москве и регионам." />
     <meta property="og:url" content="https://hiloftdesign.ru"/>
     <meta property="og:site_name" content="Hiloft Design" />
@@ -20,7 +32,9 @@
     <meta property="product:price:currency" content="" />
     <meta property="og:availability" content="instock" />
 
-    <meta type="description" content="{{ $page->meta_description }}">
+    @if(isset($page->meta_description))
+        <meta type="description" content="{{ $page->meta_description }}">
+    @endif
 
     @if(env('APP_ENV') == 'production')
         @include('frontend.sources.services')
