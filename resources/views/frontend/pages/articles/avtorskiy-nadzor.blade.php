@@ -13,7 +13,7 @@
 
             <div class="container">
                 <div class="xs-md:flex xs-md:flex-col xs-lg:flex-start sy-3">
-                    <h1 class="font-bold xs-sm:text-3xl md-xl:text-5xl xs-md:text-center hyphenate">Авторский надзор</h1>
+                    <h1 class="font-bold xs-sm:text-3xl md-xl:text-5xl">Авторский надзор</h1>
                     <p class="xl:text-2xl">В чём он заключается, кому нужен, и что будет, если от него отказаться</p>
                 </div>
             </div>
@@ -23,7 +23,7 @@
 
     <div class="container">
 
-        <article class="article mx-auto mt-20 mb-20">
+        <article class="article mx-auto xs-sm:mt-10 md-xl:mt-20 xs-sm:mb-10 md-xl:mb-20">
 
             <p>Более 80% наших клиентов заказывают авторский надзор дизайн-проекта. Остальные берут контроль за ходом ремонтных работ на себя и уверены — если на руках альбом рабочей документации, нет смысла стоять у подрядчиков над душой. Сами разберутся.</p>
             <p>Можно просто вручить бригаде чертежи и ждать, что получится. Но экономия (весьма скромная, кстати) часто приводит к тому, что получается не то, чего ожидали. Строители, получив рабочую документацию, иногда решают сделать все иначе: то монтируют плитку по своему усмотрению, то предлагают отказаться от каких-то дизайнерских решений. В нашей практике много таких случаев.</p>
@@ -122,7 +122,7 @@
             </ul>
 
             <figure>
-                <img class="mx-auto" src="{{ asset('img/articles/avtorskiy-nadzor/avtorskii-nadzor-journal.jpg') }}" alt="" width="548" height="774">
+                <img class="mx-auto" src="{{ asset('img/articles/avtorskiy-nadzor/avtorskii-nadzor-journal.jpg') }}" alt="">
                 <figcaption>Так выглядит журнал авторского надзора, куда менеджер вносит информацию о ходе работ на объекте</figcaption>
             </figure>
 
