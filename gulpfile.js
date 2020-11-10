@@ -118,6 +118,7 @@ gulp.task('uncss', function () {
                 'http://hiloftdesign/privacy-policy',
                 'http://hiloftdesign/contract-offer',
                 'http://hiloftdesign/thanks',
+                'http://hiloftdesign/articles/komplektatsiya'
             ],
             ignore: [
                 /.is-active/,
