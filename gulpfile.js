@@ -14,7 +14,9 @@ const imagemin = require('gulp-imagemin');
 const webp = require('gulp-webp');
 const uncss = require('postcss-uncss');
 const del = require('del');
+const purgecss = require('gulp-purgecss')
 let postcss = require('gulp-postcss');
+const rename = require('gulp-rename');
 
 
 sass.compiler = require('node-sass');
@@ -92,33 +94,43 @@ gulp.task('styles', done => {
 
 });
 
+gulp.task('css-sass', function () {
+   return gulp.src(app.sass.common.concat(app.sass.frontend))
+       .pipe(sass().on('error', sass.logError))
+       .pipe(concat('dist/frontend.css'))
+       .pipe(gulp.dest(env.dest.css));
+});
 
 gulp.task('min-css', function () {
-    return gulp.src(app.sass.common.concat(app.sass.frontend))
-        .pipe(sass().on('error', sass.logError))
-        .pipe(concat('frontend.min.css'))
+    return gulp.src('./public/css/frontend.css')
         .pipe(cleanCSS({level: 2}))
         .pipe(autoprefixer({
             cascade: true
         }))
+        .pipe(rename('frontend.min.css'))
         .pipe(gulp.dest(env.dest.css))
 });
 
+gulp.task('purgecss', () => {
+    return gulp.src('./public/css/dist/frontend.css')
+        .pipe(purgecss({
+            content: ['./resources/views/frontend/**/*.blade.php'],
+            safelist: [
+                /.is-active/,
+                /.swiper*/,
+                '.header--sticky',
+                /.sx-/,
+            ],
+        }))
+        .pipe(gulp.dest('./public/css'));
+})
 
 gulp.task('uncss', function () {
 
     let plugins = [
         uncss({
             html: [
-                'http://hiloftdesign/',
-                'http://hiloftdesign/portfolio',
-                'http://hiloftdesign/services/dizayn-kvartir',
-                'http://hiloftdesign/services/dizayn-domov',
-                'http://hiloftdesign/contacts',
-                'http://hiloftdesign/privacy-policy',
-                'http://hiloftdesign/contract-offer',
-                'http://hiloftdesign/thanks',
-                'http://hiloftdesign/articles/komplektatsiya'
+                './resources/views/frontend/**/*.blade.php'
             ],
             ignore: [
                 /.is-active/,
@@ -129,12 +141,12 @@ gulp.task('uncss', function () {
         })
     ];
 
-    return gulp.src('./public/css/frontend.min.css')
+    return gulp.src('./public/css/dist/frontend.css')
         .pipe(postcss(plugins))
         .pipe(gulp.dest('./public/css'));
 });
 
-gulp.task('build-css', gulp.series('min-css', 'uncss'));
+gulp.task('build-css', gulp.series('min-css', 'purgecss'));
 
 
 
