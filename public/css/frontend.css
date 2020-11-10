@@ -4852,6 +4852,62 @@ figure > img {
 /* */
 /* CONTAINERS */
 /* */
+.bg-pricing-card--basic {
+  background-size: cover;
+  background-position: center center; }
+  @media (max-width: 767px) {
+    .bg-pricing-card--basic {
+      background-image: url("../img/backgrounds/pricing-cards/basic_xs@1.jpg"); } }
+  @media (max-width: 767px) {
+    .bg-pricing-card--basic {
+      background-image: url("../img/backgrounds/pricing-cards/basic_sm@1.jpg"); } }
+  @media (min-width: 768px) {
+    .bg-pricing-card--basic {
+      background-image: url("../img/backgrounds/pricing-cards/basic_md@1.jpg"); } }
+  @media (min-width: 1020px) {
+    .bg-pricing-card--basic {
+      background-image: url("../img/backgrounds/pricing-cards/basic_lg@1.jpg"); } }
+  @media (min-width: 1200px) {
+    .bg-pricing-card--basic {
+      background-image: url("../img/backgrounds/pricing-cards/basic_xl@1.jpg"); } }
+
+.bg-pricing-card--comfort {
+  background-size: cover;
+  background-position: center center; }
+  @media (max-width: 767px) {
+    .bg-pricing-card--comfort {
+      background-image: url("../img/backgrounds/pricing-cards/comfort_xs@1.jpg"); } }
+  @media (max-width: 767px) {
+    .bg-pricing-card--comfort {
+      background-image: url("../img/backgrounds/pricing-cards/comfort_sm@1.jpg"); } }
+  @media (min-width: 768px) {
+    .bg-pricing-card--comfort {
+      background-image: url("../img/backgrounds/pricing-cards/comfort_md@1.jpg"); } }
+  @media (min-width: 1020px) {
+    .bg-pricing-card--comfort {
+      background-image: url("../img/backgrounds/pricing-cards/comfort_lg@1.jpg"); } }
+  @media (min-width: 1200px) {
+    .bg-pricing-card--comfort {
+      background-image: url("../img/backgrounds/pricing-cards/comfort_xl@1.jpg"); } }
+
+.bg-pricing-card--premium {
+  background-size: cover;
+  background-position: center center; }
+  @media (max-width: 767px) {
+    .bg-pricing-card--premium {
+      background-image: url("../img/backgrounds/pricing-cards/premium_xs@1.jpg"); } }
+  @media (max-width: 767px) {
+    .bg-pricing-card--premium {
+      background-image: url("../img/backgrounds/pricing-cards/premium_sm@1.jpg"); } }
+  @media (min-width: 768px) {
+    .bg-pricing-card--premium {
+      background-image: url("../img/backgrounds/pricing-cards/premium_md@1.jpg"); } }
+  @media (min-width: 1020px) {
+    .bg-pricing-card--premium {
+      background-image: url("../img/backgrounds/pricing-cards/premium_lg@1.jpg"); } }
+  @media (min-width: 1200px) {
+    .bg-pricing-card--premium {
+      background-image: url("../img/backgrounds/pricing-cards/premium_xl@1.jpg"); } }
 
 /* */
 /* CONTAINERS */
@@ -4877,6 +4933,82 @@ figure > img {
   @media (min-width: 1200px) {
     .bg-title-screen--home {
       background-image: url("../img/backgrounds/home/title-screen_xl@1.jpg"); } }
+
+.bg-title-screen--portfolio {
+  background-size: cover;
+  background-position: center center; }
+  @media (max-width: 767px) {
+    .bg-title-screen--portfolio {
+      background-image: url("../img/backgrounds/portfolio/title-screen_xs@1.jpg"); } }
+  @media (max-width: 767px) {
+    .bg-title-screen--portfolio {
+      background-image: url("../img/backgrounds/portfolio/title-screen_sm@1.jpg"); } }
+  @media (min-width: 768px) {
+    .bg-title-screen--portfolio {
+      background-image: url("../img/backgrounds/portfolio/title-screen_md@1.jpg"); } }
+  @media (min-width: 1020px) {
+    .bg-title-screen--portfolio {
+      background-image: url("../img/backgrounds/portfolio/title-screen_lg@1.jpg"); } }
+  @media (min-width: 1200px) {
+    .bg-title-screen--portfolio {
+      background-image: url("../img/backgrounds/portfolio/title-screen_xl@1.jpg"); } }
+
+.bg-title-screen--dizayn-kvartir {
+  background-size: cover;
+  background-position: center center; }
+  @media (max-width: 767px) {
+    .bg-title-screen--dizayn-kvartir {
+      background-image: url("../img/backgrounds/dizayn-kvartir/title-screen_xs@1.jpg"); } }
+  @media (max-width: 767px) {
+    .bg-title-screen--dizayn-kvartir {
+      background-image: url("../img/backgrounds/dizayn-kvartir/title-screen_sm@1.jpg"); } }
+  @media (min-width: 768px) {
+    .bg-title-screen--dizayn-kvartir {
+      background-image: url("../img/backgrounds/dizayn-kvartir/title-screen_md@1.jpg"); } }
+  @media (min-width: 1020px) {
+    .bg-title-screen--dizayn-kvartir {
+      background-image: url("../img/backgrounds/dizayn-kvartir/title-screen_lg@1.jpg"); } }
+  @media (min-width: 1200px) {
+    .bg-title-screen--dizayn-kvartir {
+      background-image: url("../img/backgrounds/dizayn-kvartir/title-screen_xl@1.jpg"); } }
+
+.bg-title-screen--dizayn-domov {
+  background-size: cover;
+  background-position: center center; }
+  @media (max-width: 767px) {
+    .bg-title-screen--dizayn-domov {
+      background-image: url("../img/backgrounds/dizayn-domov/title-screen_xs@1.jpg"); } }
+  @media (max-width: 767px) {
+    .bg-title-screen--dizayn-domov {
+      background-image: url("../img/backgrounds/dizayn-domov/title-screen_sm@1.jpg"); } }
+  @media (min-width: 768px) {
+    .bg-title-screen--dizayn-domov {
+      background-image: url("../img/backgrounds/dizayn-domov/title-screen_md@1.jpg"); } }
+  @media (min-width: 1020px) {
+    .bg-title-screen--dizayn-domov {
+      background-image: url("../img/backgrounds/dizayn-domov/title-screen_lg@1.jpg"); } }
+  @media (min-width: 1200px) {
+    .bg-title-screen--dizayn-domov {
+      background-image: url("../img/backgrounds/dizayn-domov/title-screen_xl@1.jpg"); } }
+
+.bg-title-screen--contacts {
+  background-size: cover;
+  background-position: center center; }
+  @media (max-width: 767px) {
+    .bg-title-screen--contacts {
+      background-image: url("../img/backgrounds/contacts/title-screen_xs@1.jpg"); } }
+  @media (max-width: 767px) {
+    .bg-title-screen--contacts {
+      background-image: url("../img/backgrounds/contacts/title-screen_sm@1.jpg"); } }
+  @media (min-width: 768px) {
+    .bg-title-screen--contacts {
+      background-image: url("../img/backgrounds/contacts/title-screen_md@1.jpg"); } }
+  @media (min-width: 1020px) {
+    .bg-title-screen--contacts {
+      background-image: url("../img/backgrounds/contacts/title-screen_lg@1.jpg"); } }
+  @media (min-width: 1200px) {
+    .bg-title-screen--contacts {
+      background-image: url("../img/backgrounds/contacts/title-screen_xl@1.jpg"); } }
 
 /* */
 /* CONTAINERS */
@@ -4964,10 +5096,46 @@ figure > img {
 /* */
 /* CONTAINERS */
 /* */
+.services-card--apartments {
+  background-size: cover;
+  background-position: center center; }
+  @media (max-width: 374px) {
+    .services-card--apartments {
+      background-image: url("../img/service-cards/apartments_sm@1.jpg"); } }
+  @media (max-width: 767px) {
+    .services-card--apartments {
+      background-image: url("../img/service-cards/apartments_sm@1.jpg"); } }
+  @media (max-width: 1019px) {
+    .services-card--apartments {
+      background-image: url("../img/service-cards/apartments_md@1.jpg"); } }
+  @media (max-width: 1199px) {
+    .services-card--apartments {
+      background-image: url("../img/service-cards/apartments_lg@1.jpg"); } }
+  @media (min-width: 1200px) {
+    .services-card--apartments {
+      background-image: url("../img/service-cards/apartments_xl@1.jpg"); } }
 
 /* */
 /* CONTAINERS */
 /* */
+.services-card--houses {
+  background-size: cover;
+  background-position: center center; }
+  @media (max-width: 374px) {
+    .services-card--houses {
+      background-image: url("../img/service-cards/houses_sm@1.jpg"); } }
+  @media (max-width: 767px) {
+    .services-card--houses {
+      background-image: url("../img/service-cards/houses_sm@1.jpg"); } }
+  @media (max-width: 1019px) {
+    .services-card--houses {
+      background-image: url("../img/service-cards/houses_md@1.jpg"); } }
+  @media (max-width: 1199px) {
+    .services-card--houses {
+      background-image: url("../img/service-cards/houses_lg@1.jpg"); } }
+  @media (min-width: 1200px) {
+    .services-card--houses {
+      background-image: url("../img/service-cards/houses_xl@1.jpg"); } }
 
 /* */
 /* CONTAINERS */

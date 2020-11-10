@@ -138,7 +138,8 @@ gulp.task('uncss', function () {
                 /.is-active/,
                 /.swiper*/,
                 '.header--sticky',
-                /.sx-/
+                /.sx-/,
+                /--/
             ]
         })
     ];
@@ -149,18 +150,6 @@ gulp.task('uncss', function () {
 });
 
 
-gulp.task('critical', () => {
-    return gulp
-        .src('./resources/views/frontend/**/*.blade.php')
-        .pipe(
-            critical({
-                base: './public/css/',
-                inline: true,
-                css: ['./public/css/frontend.min.css'],
-            })
-        )
-        .pipe(gulp.dest('dist'));
-});
 
 gulp.task('critical-css', function () {
     return gulp.src('./public/css/frontend.min.css')

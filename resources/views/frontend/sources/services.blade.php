@@ -51,5 +51,7 @@
 </noscript>
 <!-- End Facebook Pixel Code -->
 
-<!-- Jivosite -->
-<script src="//code.jivosite.com/widget.js" data-jv-id="Fz05T4mdge" async></script>
+@if(env('APP_ENV') == 'production')
+    <!-- Jivosite -->
+    <script src="//code.jivosite.com/widget.js" data-jv-id="Fz05T4mdge" async></script>
+@endif
