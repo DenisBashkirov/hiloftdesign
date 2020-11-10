@@ -1,7 +1,7 @@
 @extends('frontend.layouts.main')
 
 @section('page_title')
-    Авторский надзор
+    Авторский надзор. В чём он заключается, кому нужен, и что будет, если от него отказаться.
 @endsection
 
 @section('main_content')
