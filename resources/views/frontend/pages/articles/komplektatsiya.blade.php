@@ -49,7 +49,7 @@
 
             <figure>
                 <img src="{{ asset('img/articles/komplektatsiya/spetsifikatsiya-komplektatsiya.jpg') }}" alt="">
-                <figcaption>Пример того, как выглядит спецификация в альбоме рабочей документации, который предоставляет клиентам студия Hiloft Design</figcaption>
+                <figcaption>Пример того, как выглядит спецификация в альбоме рабочей документации, который предоставляет клиентам студии Hiloft Design</figcaption>
             </figure>
 
             <h2>Почему люди на стороне заказчика не справляются с комплектацией дизайн-проекта</h2>
