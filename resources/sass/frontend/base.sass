@@ -1,9 +1,10 @@
 @import "vars"
 @import "../breakpoints"
+@import "colors"
 
 html, body
     width: 100%
-    overflow-x: hidden
+    //overflow-x: hidden */если включить, то неработает position: sticky у дочерних элементов любого уровня */
 
 html
     font-family: "Lato", sans-serif
@@ -51,3 +52,18 @@ input
 
 b
     font-weight: bolder
+
+figure
+    display: flex
+    flex-direction: column
+
+figure + figure
+    margin-top: 1em
+
+figcaption
+    font-size: .95em
+    text-align: center
+    opacity: .7
+    margin-bottom: 1em
+    margin-top: .3em
+

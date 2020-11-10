@@ -1,0 +1,7 @@
+@import "../../../bootstrap"
+
+$floats: left, right
+
+@each $float in $floats
+    +breakpoints(float-#{$float})
+        float: #{$float}

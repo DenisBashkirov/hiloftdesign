@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Schema;
 
 Route::namespace('Frontend')->group(function () {
 
-    Route::get('/articles', ['uses' => 'FrontendOutputController@articles', 'as' => 'articles']);
+    Route::get('/articles/{article}', ['uses' => 'FrontendOutputController@articles', 'as' => 'articles']);
 
     // Перебор из базы данных
     if(Schema::hasTable('pages')) {

@@ -116,7 +116,8 @@ class FrontendOutputController extends FrontendBaseController
         return $this->renderOutput();
     }
 
-    public function articles() {
+    public function articles($article) {
+        $this->template = 'frontend.pages.articles.' . $article;
         return $this->renderOutput();
     }
 }
