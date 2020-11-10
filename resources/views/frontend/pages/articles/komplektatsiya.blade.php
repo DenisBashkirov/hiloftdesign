@@ -1,7 +1,7 @@
 @extends('frontend.layouts.main')
 
 @section('page_title')
-    Article
+    Комплектация. Зачем нужна и кому доверить.
 @endsection
 
 @section('main_content')
