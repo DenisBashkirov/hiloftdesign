@@ -15,8 +15,10 @@ const webp = require('gulp-webp');
 const uncss = require('postcss-uncss');
 const del = require('del');
 const purgecss = require('gulp-purgecss')
-let postcss = require('gulp-postcss');
+const postcss = require('gulp-postcss');
 const rename = require('gulp-rename');
+const critical = require('critical').stream;
+const criticalCss = require('gulp-penthouse');
 
 
 sass.compiler = require('node-sass');
@@ -145,6 +147,33 @@ gulp.task('uncss', function () {
         .pipe(postcss(plugins))
         .pipe(gulp.dest('./public/css'));
 });
+
+
+gulp.task('critical', () => {
+    return gulp
+        .src('./resources/views/frontend/**/*.blade.php')
+        .pipe(
+            critical({
+                base: './public/css/',
+                inline: true,
+                css: ['./public/css/frontend.min.css'],
+            })
+        )
+        .pipe(gulp.dest('dist'));
+});
+
+gulp.task('critical-css', function () {
+    return gulp.src('./public/css/frontend.min.css')
+        .pipe(criticalCss({
+            out: 'critical.css', // output file name
+            url: 'http://hiloftdesign', // url from where we want penthouse to extract critical styles
+            width: 1400, // max window width for critical media queries
+            height: 900, // max window height for critical media queries
+            userAgent: 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)' // pretend to be googlebot when grabbing critical page styles.
+        }))
+        .pipe(gulp.dest('./public/css/critical/')); // destination folder for the output file
+});
+
 
 gulp.task('build-css', gulp.series('min-css', 'purgecss'));
 

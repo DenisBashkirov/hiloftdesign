@@ -21,6 +21,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-debug": "^4.0.0",
     "gulp-imagemin": "^7.1.0",
+    "gulp-penthouse": "^0.2.0",
     "gulp-postcss": "^8.0.0",
     "gulp-purgecss": "^3.0.0",
     "gulp-requirejs": "^1.4.0",
