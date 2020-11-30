@@ -19,7 +19,7 @@
         </div>
 
         <div class="md:as-center xs-md:flex xs-md:flex-col xs-md:flex-center md:w-120 lg:mt-24 xl:mt-36 sy-5 xs-md:text-center">
-            <p class="lg-xl:w-116 xs:text-lg sm:text-xl md:text-3xl lg-xl:text-2xl font-medium">Получите профессиональный проект по методу ESHL</p>
+            <p class="lg-xl:w-116 xs:text-lg sm:text-xl md:text-3xl lg-xl:text-2xl font-medium">Получите профессиональный проект по методике ESHL</p>
             <div class="md:flex md:flex-col md:flex-center md:text-lg xs-sm:w-60 md:w-72 xs-md:sy-5 lg-xl:sx-5">
                 <a class="button button-golden-solid xs-md:w-full xl:w-60" href="#eshl">Подробнее про ESHL</a>
             </div>
