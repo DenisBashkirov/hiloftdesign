@@ -28,6 +28,7 @@
                             <li class="op-50">Авторский надзор</li>
                             <li class="op-50">Ссылки на мебель</li>
                             <li class="op-50">Ссылки на свет и сантехнику</li>
+                            <li class="op-50">Менеджмент проекта</li>
                         @endslot
                     @endcomponent
 
@@ -44,10 +45,11 @@
                                 <li class="op-50">Авторский надзор</li>
                                 <li class="op-50">Ссылки на мебель</li>
                                 <li class="op-50">Ссылки на свет и сантехнику</li>
+                                <li class="op-50">Менеджмент проекта</li>
                             @endslot
                     @endcomponent
 
-                    @component('frontend.components.cards.pricing-card', ['title'=>'Премиум', 'price'=>'3900', 'bg'=>'premium', 'data_modal'=>'pricing_premium'])
+                    @component('frontend.components.cards.pricing-card', ['title'=>'Премиум', 'price'=>'4900', 'bg'=>'premium', 'data_modal'=>'pricing_premium'])
                             @slot('options')
                                 <li>Обмеры</li>
                                 <li>Планировочное решение</li>
@@ -60,6 +62,7 @@
                                 <li>Авторский надзор</li>
                                 <li>Ссылки на мебель</li>
                                 <li>Ссылки на свет и сантехнику</li>
+                                <li>Менеджмент проекта</li>
                             @endslot
                     @endcomponent
 
