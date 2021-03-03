@@ -22,7 +22,7 @@
                         <img class="lazyload" data-srcset="{{ asset('img/eshl-features/result@1.jpg') }}" alt="">
                     </picture>
                 @endcomponent
-                @component('frontend.components.cards.eshl-feature-card', ['headline'=>'исчерпывающая документация', 'text'=>'для согласований со службами и работы строителей'])
+                @component('frontend.components.cards.eshl-feature-card', ['headline'=>'исчерпывающая документация', 'text'=>'для работы строительных бригад'])
                     <picture>
                         <img class="lazyload" data-srcset="{{ asset('img/eshl-features/documentation@1.jpg') }}" alt="">
                     </picture>
