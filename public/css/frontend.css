@@ -90,9 +90,6 @@ figure {
   display: flex;
   flex-direction: column; }
 
-figure + figure {
-  margin-top: 1em; }
-
 figcaption {
   font-size: .95em;
   text-align: center;
@@ -9402,6 +9399,76 @@ figure > img {
 @media (min-width: 768px) and (max-width: 1199px) {
   .md-lg\:float-right {
     float: right; } }
+
+/* */
+/* CONTAINERS */
+/* */
+.grid {
+  display: grid !important; }
+
+@media (max-width: 374px) {
+  .xs\:grid {
+    display: grid !important; } }
+
+@media (min-width: 1200px) {
+  .xl\:grid {
+    display: grid !important; } }
+
+@media (min-width: 1366px) {
+  .xl2\:grid {
+    display: grid !important; } }
+
+@media (min-width: 1440px) {
+  .xl3\:grid {
+    display: grid !important; } }
+
+@media (max-width: 767px) {
+  .xs-sm\:grid {
+    display: grid !important; } }
+
+@media (max-width: 1019px) {
+  .xs-md\:grid {
+    display: grid !important; } }
+
+@media (max-width: 1199px) {
+  .xs-lg\:grid {
+    display: grid !important; } }
+
+@media (min-width: 375px) {
+  .sm-xl\:grid {
+    display: grid !important; } }
+
+@media (min-width: 768px) {
+  .md-xl\:grid {
+    display: grid !important; } }
+
+@media (min-width: 1020px) {
+  .lg-xl\:grid {
+    display: grid !important; } }
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .sm\:grid {
+    display: grid !important; } }
+
+@media (min-width: 768px) and (max-width: 1019px) {
+  .md\:grid {
+    display: grid !important; } }
+
+@media (min-width: 1020px) and (max-width: 1199px) {
+  .lg\:grid {
+    display: grid !important; } }
+
+@media (min-width: 375px) and (max-width: 1019px) {
+  .sm-md\:grid {
+    display: grid !important; } }
+
+@media (min-width: 375px) and (max-width: 1199px) {
+  .sm-lg\:grid {
+    display: grid !important; } }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .md-lg\:grid {
+    display: grid !important; } }
 
 /* */
 /* CONTAINERS */
@@ -24578,76 +24645,6 @@ figure > img {
 @media (min-width: 768px) and (max-width: 1199px) {
   .md-lg\:z-5 {
     z-index: 5; } }
-
-/* */
-/* CONTAINERS */
-/* */
-.grid {
-  display: grid !important; }
-
-@media (max-width: 374px) {
-  .xs\:grid {
-    display: grid !important; } }
-
-@media (min-width: 1200px) {
-  .xl\:grid {
-    display: grid !important; } }
-
-@media (min-width: 1366px) {
-  .xl2\:grid {
-    display: grid !important; } }
-
-@media (min-width: 1440px) {
-  .xl3\:grid {
-    display: grid !important; } }
-
-@media (max-width: 767px) {
-  .xs-sm\:grid {
-    display: grid !important; } }
-
-@media (max-width: 1019px) {
-  .xs-md\:grid {
-    display: grid !important; } }
-
-@media (max-width: 1199px) {
-  .xs-lg\:grid {
-    display: grid !important; } }
-
-@media (min-width: 375px) {
-  .sm-xl\:grid {
-    display: grid !important; } }
-
-@media (min-width: 768px) {
-  .md-xl\:grid {
-    display: grid !important; } }
-
-@media (min-width: 1020px) {
-  .lg-xl\:grid {
-    display: grid !important; } }
-
-@media (min-width: 375px) and (max-width: 767px) {
-  .sm\:grid {
-    display: grid !important; } }
-
-@media (min-width: 768px) and (max-width: 1019px) {
-  .md\:grid {
-    display: grid !important; } }
-
-@media (min-width: 1020px) and (max-width: 1199px) {
-  .lg\:grid {
-    display: grid !important; } }
-
-@media (min-width: 375px) and (max-width: 1019px) {
-  .sm-md\:grid {
-    display: grid !important; } }
-
-@media (min-width: 375px) and (max-width: 1199px) {
-  .sm-lg\:grid {
-    display: grid !important; } }
-
-@media (min-width: 768px) and (max-width: 1199px) {
-  .md-lg\:grid {
-    display: grid !important; } }
 
 /* */
 /* CONTAINERS */
@@ -90215,17 +90212,6 @@ figure > img {
 /* */
 /* CONTAINERS */
 /* */
-.link {
-  text-decoration: none;
-  color: #E0AF6D;
-  transition: color 0.2s; }
-  .link:hover {
-    text-decoration: underline;
-    color: #EFB458; }
-
-/* */
-/* CONTAINERS */
-/* */
 .portfolio-gallery {
   grid-template-columns: 100%;
   grid-gap: 15px; }
@@ -90235,6 +90221,17 @@ figure > img {
   @media (min-width: 1200px) {
     .portfolio-gallery {
       grid-template-columns: repeat(4, 1fr); } }
+
+/* */
+/* CONTAINERS */
+/* */
+.link {
+  text-decoration: none;
+  color: #E0AF6D;
+  transition: color 0.2s; }
+  .link:hover {
+    text-decoration: underline;
+    color: #EFB458; }
 
 /* */
 /* CONTAINERS */
