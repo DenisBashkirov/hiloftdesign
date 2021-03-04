@@ -2,15 +2,15 @@
 
     <a class="md-lg:flex-order-2" href="{{ route('home') }}">
         <picture>
-            <source srcset="{{ asset('img/logo/white_xl@2.webp') }}" media="(min-width: 1200px)" type="image/webp">
-            <source srcset="{{ asset('img/logo/white_xl@2.png') }}" media="(min-width: 1200px)">
-            <source srcset="{{ asset('img/logo/white_lg@2.webp') }}" media="(min-width: 992px)" type="image/webp">
-            <source srcset="{{ asset('img/logo/white_lg@2.png') }}" media="(min-width: 992px)">
-            <source srcset="{{ asset('img/logo/white_md@2.webp') }}" media="(min-width: 768px)" type="image/webp">
-            <source srcset="{{ asset('img/logo/white_md@2.png') }}" media="(min-width: 768px)">
-            <source srcset="{{ asset('img/logo/white_sm@2.webp') }}" media="(min-width: 375px)" type="image/webp">
-            <source srcset="{{ asset('img/logo/white_sm@2.png') }}" media="(min-width: 375px)">
-            <source srcset="{{ asset('img/logo/white_xs@2.webp') }}" type="image/webp">
+            <source srcset="{{ asset('img/logo/white-xl@2.webp') }}" media="(min-width: 1200px)" type="image/webp">
+            <source srcset="{{ asset('img/logo/white-xl@2.png') }}" media="(min-width: 1200px)">
+            <source srcset="{{ asset('img/logo/white-lg@2.webp') }}" media="(min-width: 992px)" type="image/webp">
+            <source srcset="{{ asset('img/logo/white-lg@2.png') }}" media="(min-width: 992px)">
+            <source srcset="{{ asset('img/logo/white-md@2.webp') }}" media="(min-width: 768px)" type="image/webp">
+            <source srcset="{{ asset('img/logo/white-md@2.png') }}" media="(min-width: 768px)">
+            <source srcset="{{ asset('img/logo/white-sm@2.webp') }}" media="(min-width: 375px)" type="image/webp">
+            <source srcset="{{ asset('img/logo/white-sm@2.png') }}" media="(min-width: 375px)">
+            <source srcset="{{ asset('img/logo/white-xs@2.webp') }}" type="image/webp">
             <img class="xs-sm:h-6 md:w-28 lg:w-36 xl:h-10 z-5" src="{{ asset('img/logo/white_xs@2.png') }}" alt="Hiloft Design Studio логотип белый" />
         </picture>
     </a>
