@@ -15,7 +15,7 @@
                 @endcomponent
                 @component('frontend.components.cards.pop-styles-card', ['style_name'=>'Минимализм', 'style_name_slug'=>'minimalizm'])
                 @endcomponent
-                @component('frontend.components.cards.pop-styles-card', ['style_name'=>'Скандинавский стиль', 'style_name_slug'=>'skandinavskiy'])
+                @component('frontend.components.cards.pop-styles-card', ['style_name'=>'Скандинавский', 'style_name_slug'=>'skandinavskiy'])
                 @endcomponent
             </div>
             <div class="swiper-navigation xl:hidden absolute z-5 w-full">

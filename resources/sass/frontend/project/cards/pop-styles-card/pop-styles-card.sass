@@ -8,25 +8,29 @@
     @media ($breakpoint_sm_max)
         $width: 270px
         width: $width !important
-        height: #{$width * $ratio} !important
+        //height: #{$width * $ratio} !important
 
 
     @media ($breakpoint_md)
         $width: 270px
         width: $width !important
-        height: #{$width * $ratio} !important
+        //height: #{$width * $ratio} !important
 
     @media ($breakpoint_xl)
         width: calc(100vw / 5 - 8px) !important
-        height: calc((100vw / 5 - 8px) * #{$ratio}) !important
+        //height: calc((100vw / 5 - 8px) * #{$ratio}) !important
 
 
 
     & img
         transition: transform $duration_normal ease-in-out, opacity .3s
 
-    &:hover img
-        transform: scale(1.1)
+    @media ($breakpoint_xl)
+        &:hover img
+            transform: scale(1.1)
+
+        &:hover .overlay
+            opacity: 1
 
 
 
@@ -34,5 +38,3 @@
         transition: opacity $duration_normal ease-in-out
         opacity: 0
 
-    &:hover .overlay
-        opacity: 1
