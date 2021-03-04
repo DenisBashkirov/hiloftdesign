@@ -208,7 +208,7 @@ $(document).ready(function () {
     pricing-cards-swiper
      */
     let pricingCardsSwiper = new Swiper('.pricing-cards-swiper', {
-        spaceBetween: 30,
+        spaceBetween: 15,
         watchOverflow: true,
         pagination: {
             el: '',
