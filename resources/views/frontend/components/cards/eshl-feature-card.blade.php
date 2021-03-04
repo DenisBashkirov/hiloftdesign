@@ -1,4 +1,4 @@
-<div class="eshl-feature-card swiper-slide px-4">
+<div class="eshl-feature-card swiper-slide px-4" style="box-sizing: content-box;">
 
     <div class="flex justify-center h-100">
         {{ $slot }}
