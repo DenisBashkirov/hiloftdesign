@@ -4,16 +4,16 @@
 
         <div class="xs-md:flex xs-md:flex-col xs-md:flex-center">
             <picture>
-                <source srcset="{{ asset('img/logo/white_xl@2.webp') }}" media="(min-width: 1200px)" type="image/webp">
-                <source srcset="{{ asset('img/logo/white_xl@2.png') }}" media="(min-width: 1200px)">
-                <source srcset="{{ asset('img/logo/white_lg@2.webp') }}" media="(min-width: 992px)" type="image/webp">
-                <source srcset="{{ asset('img/logo/white_lg@2.png') }}" media="(min-width: 992px)">
-                <source srcset="{{ asset('img/logo/white_md@2.webp') }}" media="(min-width: 768px)" type="image/webp">
-                <source srcset="{{ asset('img/logo/white_md@2.png') }}" media="(min-width: 768px)">
-                <source srcset="{{ asset('img/logo/white_sm@2.webp') }}" media="(min-width: 375px)" type="image/webp">
-                <source srcset="{{ asset('img/logo/white_sm@2.png') }}" media="(min-width: 375px)">
-                <source srcset="{{ asset('img/logo/white_xs@2.webp') }}" type="image/webp">
-                <img class="xs:w-60 sm:w-72 md:w-100 lg:w-80 xl:h-20" src="{{ asset('img/logo/white_xs@2.png') }}" alt="Hiloft Design Studio логотип белый" />
+                <source srcset="{{ asset('img/logo/white-xl@2.webp') }}" media="(min-width: 1200px)" type="image/webp">
+                <source srcset="{{ asset('img/logo/white-xl@2.png') }}" media="(min-width: 1200px)">
+                <source srcset="{{ asset('img/logo/white-lg@2.webp') }}" media="(min-width: 992px)" type="image/webp">
+                <source srcset="{{ asset('img/logo/white-lg@2.png') }}" media="(min-width: 992px)">
+                <source srcset="{{ asset('img/logo/white-md@2.webp') }}" media="(min-width: 768px)" type="image/webp">
+                <source srcset="{{ asset('img/logo/white-md@2.png') }}" media="(min-width: 768px)">
+                <source srcset="{{ asset('img/logo/white-sm@2.webp') }}" media="(min-width: 375px)" type="image/webp">
+                <source srcset="{{ asset('img/logo/white-sm@2.png') }}" media="(min-width: 375px)">
+                <source srcset="{{ asset('img/logo/white-xs@2.webp') }}" type="image/webp">
+                <img class="xs:w-60 sm:w-72 md:w-100 lg:w-80 xl:h-20" src="{{ asset('img/logo/white-xs@2.png') }}" alt="Hiloft Design Studio логотип белый" />
             </picture>
             <h1 class="lg-xl:w-136 font-bold xs:text-xl sm:text-3xl md:text-5xl lg-xl:text-4xl xs-md:text-center">{{ $page->h1 }}</h1>
         </div>
