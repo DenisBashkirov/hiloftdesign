@@ -73,7 +73,7 @@ class FrontendOutputController extends FrontendBaseController
 
     public function home() {
 
-        $this->varsAdd('portfolio_items', PortfolioItem::take(8)->get());
+        $this->varsAdd('portfolio_items', PortfolioItem::orderBy('ordering', 'desc')->take(8)->get());
 
         $team_people = TeamPerson::where('active', true)->orderBy('order')->get();
         $this->varsAdd('team_people', $team_people);
@@ -82,7 +82,7 @@ class FrontendOutputController extends FrontendBaseController
     }
 
     public function portfolio() {
-        $this->varsAdd('portfolio_items', PortfolioItem::all());
+        $this->varsAdd('portfolio_items', PortfolioItem::orderBy('ordering', 'desc')->get());
 
         return $this->renderOutput();
     }
