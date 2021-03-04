@@ -11,7 +11,7 @@
             <source srcset="{{ asset('img/logo/white-sm@2.webp') }}" media="(min-width: 375px)" type="image/webp">
             <source srcset="{{ asset('img/logo/white-sm@2.png') }}" media="(min-width: 375px)">
             <source srcset="{{ asset('img/logo/white-xs@2.webp') }}" type="image/webp">
-            <img class="xs-sm:h-6 md:w-28 lg:w-36 xl:h-10 z-5" src="{{ asset('img/logo/white_xs@2.png') }}" alt="Hiloft Design Studio логотип белый" />
+            <img class="xs-sm:h-6 md:w-28 lg:w-36 xl:h-10 z-5" src="{{ asset('img/logo/white-xs@2.png') }}" alt="Hiloft Design Studio логотип белый" />
         </picture>
     </a>
 
