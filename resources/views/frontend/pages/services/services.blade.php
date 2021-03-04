@@ -15,7 +15,7 @@
             <div class="pricing-cards-swiper swiper-container">
                 <div class="swiper-wrapper">
 
-                    @component('frontend.components.cards.pricing-card', ['title'=>'Базовый', 'price'=>'1490', 'bg'=>'basic', 'data_modal'=>'pricing_basic'])
+                    @component('frontend.components.cards.pricing-card', ['title'=>'Базовый', 'price'=>'2590', 'bg'=>'basic', 'data_modal'=>'pricing_basic'])
                         @slot('options')
                             <li>Обмеры</li>
                             <li>Планировочное решение</li>
@@ -25,14 +25,14 @@
                             <li class="op-50">Ссылки на материалы</li>
                             <li class="op-50">Проведение тендера</li>
                             <li class="op-50">Контакты поставщиков</li>
-                            <li class="op-50">Авторский надзор</li>
                             <li class="op-50">Ссылки на мебель</li>
                             <li class="op-50">Ссылки на свет и сантехнику</li>
+                            <li class="op-50">Авторский надзор</li>
                             <li class="op-50">Менеджмент проекта</li>
                         @endslot
                     @endcomponent
 
-                    @component('frontend.components.cards.pricing-card', ['title'=>'Комфорт', 'price'=>'2590', 'bg'=>'comfort', 'data_modal'=>'pricing_comfort'])
+                    @component('frontend.components.cards.pricing-card', ['title'=>'Комфорт', 'price'=>'3190', 'bg'=>'comfort', 'data_modal'=>'pricing_comfort'])
                             @slot('options')
                                 <li>Обмеры</li>
                                 <li>Планировочное решение</li>
@@ -42,9 +42,9 @@
                                 <li>Ссылки на материалы</li>
                                 <li>Проведение тендера</li>
                                 <li>Контакты поставщиков</li>
+                                <li>Ссылки на мебель</li>
+                                <li>Ссылки на свет и сантехнику</li>
                                 <li class="op-50">Авторский надзор</li>
-                                <li class="op-50">Ссылки на мебель</li>
-                                <li class="op-50">Ссылки на свет и сантехнику</li>
                                 <li class="op-50">Менеджмент проекта</li>
                             @endslot
                     @endcomponent
@@ -59,9 +59,9 @@
                                 <li>Ссылки на материалы</li>
                                 <li>Проведение тендера</li>
                                 <li>Контакты поставщиков</li>
-                                <li>Авторский надзор</li>
                                 <li>Ссылки на мебель</li>
                                 <li>Ссылки на свет и сантехнику</li>
+                                <li>Авторский надзор</li>
                                 <li>Менеджмент проекта</li>
                             @endslot
                     @endcomponent
