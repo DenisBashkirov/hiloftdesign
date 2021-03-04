@@ -11,7 +11,7 @@
                 @endcomponent
                 @component('frontend.components.cards.pop-styles-card', ['style_name'=>'Эко-стиль', 'style_name_slug'=>'eko'])
                 @endcomponent
-                @component('frontend.components.cards.pop-styles-card', ['style_name'=>'Прованс', 'style_name_slug'=>'provans'])
+                @component('frontend.components.cards.pop-styles-card', ['style_name'=>'Современный', 'style_name_slug'=>'sovremenniy'])
                 @endcomponent
                 @component('frontend.components.cards.pop-styles-card', ['style_name'=>'Минимализм', 'style_name_slug'=>'minimalizm'])
                 @endcomponent
