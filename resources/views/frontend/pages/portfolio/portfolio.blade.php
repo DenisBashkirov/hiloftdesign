@@ -6,7 +6,7 @@
     @component('frontend.sections.title-screen', ['title_screen_bg'=>'portfolio'])
     @endcomponent
 
-    <div class="xs-sm:container-fluid">
+    <div class="xs-sm:container-fluid mt-4">
         @component('frontend.components.portfolio.portfolio_items', ['swiper'=>false, 'portfolio_items'=>$portfolio_items])
         @endcomponent
     </div>

@@ -1,0 +1,11 @@
+@import "../../../bootstrap"
+
+.portfolio-gallery
+    grid-template-columns: 100%
+    grid-gap: 15px
+
+    @media ($breakpoint_md)
+        grid-template-columns: repeat(2, 1fr)
+
+    @media ($breakpoint_xl)
+        grid-template-columns: repeat(4, 1fr)

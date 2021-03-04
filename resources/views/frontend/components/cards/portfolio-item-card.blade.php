@@ -1,8 +1,8 @@
 <div class="
     @if($swiper_slide)
-        portfolio-item-card--slide mt-2 swiper-slide
+        portfolio-item-card--slide swiper-slide
     @else
-        portfolio-item-card md-lg:w-cols-6 mt-2
+        portfolio-item-card md-lg:w-cols-6
     @endif
 ">
     <a href="{{ asset('img/portfolio/' . $img_name . '.jpg') }}" data-fancybox="portfolio">

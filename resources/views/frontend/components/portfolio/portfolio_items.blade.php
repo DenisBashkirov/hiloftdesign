@@ -1,7 +1,7 @@
 @if($swiper)
 
     <div class="portfolio-items-swiper swiper-container flex flex-center">
-        <div class="swiper-wrapper xl:flex xl:flex-wrap xl:justify-between">
+        <div class="swiper-wrapper md-xl:grid portfolio-gallery">
             @foreach($portfolio_items as $portfolio_item)
                 @component('frontend.components.cards.portfolio-item-card', ['swiper_slide'=>true, 'img_name'=>$portfolio_item['img_name']])
                 @endcomponent
@@ -17,7 +17,7 @@
 @else
 
     <div class="flex flex-center">
-        <div class="md-xl:flex md-xl:flex-wrap md-lg:justify-around xl:justify-between">
+        <div class="grid portfolio-gallery">
             @foreach($portfolio_items as $portfolio_item)
                 @component('frontend.components.cards.portfolio-item-card', ['swiper_slide'=>false, 'img_name'=>$portfolio_item['img_name']])
                 @endcomponent
