@@ -128,7 +128,7 @@
 
 @section('page_modals')
 
-    @component('frontend.components.modals.modal', ['headline'=>'Тариф Базовый', 'modal_name'=>'pricing_basic'])
+    @component('frontend.components.modals.modal', ['headline'=>'Тариф Стандарт', 'modal_name'=>'pricing_basic'])
     @endcomponent
 
     @component('frontend.components.modals.modal', ['headline'=>'Тариф Комфорт', 'modal_name'=>'pricing_comfort'])
