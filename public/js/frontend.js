@@ -301,15 +301,16 @@ $(document).ready(function () {
     FANCYBOX
      */
     $('[data-fancybox="portfolio"]').fancybox({
-        toolbar : false,
-        keyboard: false,
+        toolbar : true,
+        keyboard: true,
         infobar: false,
-        arrows: false,
+        arrows: true,
         touch: false,
         clickSlide: "close",
         mobile: {
             clickSlide: "close",
-        }
+        },
+        buttons: ['close']
     });
 
 
