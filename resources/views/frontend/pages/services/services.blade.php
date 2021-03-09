@@ -8,7 +8,7 @@
     <section class="pricing xs-sm:my-12 md:my-24 lg:my-28 xl:my-36">
 
         <div class="container">
-            <h2 class="text-golden">Тарифы на услуги дизайна</h2>
+            <h2 class="text-golden">Цены на услуги дизайна</h2>
         </div>
 
         <div class="lg-xl:container xs-sm:mt-6 md-lg:mt-12 xl:mt-20">
