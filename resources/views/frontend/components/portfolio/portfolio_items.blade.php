@@ -16,7 +16,7 @@
 
 @else
 
-    <div class="swiper-wrapper md-xl:grid portfolio-gallery">
+    <div class="swiper-wrapper portfolio-gallery">
         <div class="grid portfolio-gallery">
             @foreach($portfolio_items as $portfolio_item)
                 @component('frontend.components.cards.portfolio-item-card', ['swiper_slide'=>false, 'img_name'=>$portfolio_item['img_name']])
