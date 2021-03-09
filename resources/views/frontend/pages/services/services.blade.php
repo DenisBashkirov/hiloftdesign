@@ -15,7 +15,7 @@
             <div class="pricing-cards-swiper swiper-container">
                 <div class="swiper-wrapper">
 
-                    @component('frontend.components.cards.pricing-card', ['title'=>'Базовый', 'price'=>'2590', 'bg'=>'basic', 'data_modal'=>'pricing_basic'])
+                    @component('frontend.components.cards.pricing-card', ['title'=>'Стандарт', 'price'=>'2590', 'bg'=>'basic', 'data_modal'=>'pricing_basic'])
                         @slot('options')
                             <li>Обмеры</li>
                             <li>Планировочное решение</li>
