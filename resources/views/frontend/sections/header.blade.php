@@ -1,4 +1,4 @@
-<header class="compensate-for-scrollbar header text-white absolute flex flex-center justify-between z-5 w-full top-0 xs-sm:px-4 xs-sm:py-3 md:px-6 md:py-5 lg:py-5 lg:px-6 xl:px-8 xl:py-6">
+<header class="compensate-for-scrollbar left-0 right-0 compensate-for-scrollbar header text-white absolute flex flex-center justify-between z-5 top-0 xs-sm:px-4 xs-sm:py-3 md:px-6 md:py-5 lg:py-5 lg:px-6 xl:px-8 xl:py-6">
 
     <a class="md-lg:flex-order-2" href="{{ route('home') }}">
         <picture>
