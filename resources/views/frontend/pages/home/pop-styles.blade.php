@@ -9,13 +9,13 @@
             <div class="swiper-wrapper xl:flex xl:justify-between">
                 @component('frontend.components.cards.pop-styles-card', ['style_name'=>'Лофт', 'style_name_slug'=>'loft'])
                 @endcomponent
-                @component('frontend.components.cards.pop-styles-card', ['style_name'=>'Эко-стиль', 'style_name_slug'=>'eko'])
+                @component('frontend.components.cards.pop-styles-card', ['style_name'=>'Скандинавский', 'style_name_slug'=>'skandinavskiy'])
                 @endcomponent
-                @component('frontend.components.cards.pop-styles-card', ['style_name'=>'Современный', 'style_name_slug'=>'sovremenniy'])
+                @component('frontend.components.cards.pop-styles-card', ['style_name'=>'Классический', 'style_name_slug'=>'provans'])
                 @endcomponent
                 @component('frontend.components.cards.pop-styles-card', ['style_name'=>'Минимализм', 'style_name_slug'=>'minimalizm'])
                 @endcomponent
-                @component('frontend.components.cards.pop-styles-card', ['style_name'=>'Скандинавский', 'style_name_slug'=>'skandinavskiy'])
+                @component('frontend.components.cards.pop-styles-card', ['style_name'=>'Современный', 'style_name_slug'=>'sovremenniy'])
                 @endcomponent
             </div>
             <div class="swiper-navigation xl:hidden absolute z-5 w-full">
