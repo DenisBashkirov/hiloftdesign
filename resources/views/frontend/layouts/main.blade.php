@@ -38,6 +38,7 @@
 
     @if(env('APP_ENV') == 'production')
         @include('frontend.sources.services')
+        <link rel="stylesheet" href="{{ asset('css/csscritical.css') }}">
         <link rel="stylesheet" href="{{ asset('css/frontend.min.css') }}" onload="this.media='all'; this.onload=null;">
     @else
         <link rel="stylesheet" href="{{ asset('css/frontend.css') }}">
