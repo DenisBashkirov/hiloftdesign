@@ -90148,6 +90148,12 @@ picture {
 /* */
 /* CONTAINERS */
 /* */
+.fancybox-container {
+  overflow-y: scroll; }
+
+/* */
+/* CONTAINERS */
+/* */
 .fancybox-navigation {
   margin-top: 50vh; }
 
@@ -90200,17 +90206,6 @@ picture {
 /* */
 /* CONTAINERS */
 /* */
-.lazyload, .lazyloading {
-  opacity: 0;
-  transition: opacity 300ms; }
-
-.lazyloaded {
-  opacity: 1;
-  transition: opacity 300ms; }
-
-/* */
-/* CONTAINERS */
-/* */
 .input {
   background-color: transparent;
   padding: .5em .35em;
@@ -90219,6 +90214,17 @@ picture {
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
   width: 100%;
   max-width: 15em; }
+
+/* */
+/* CONTAINERS */
+/* */
+.lazyload, .lazyloading {
+  opacity: 0;
+  transition: opacity 300ms; }
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 300ms; }
 
 /* */
 /* CONTAINERS */
@@ -90528,69 +90534,6 @@ picture {
 /* */
 /* CONTAINERS */
 /* */
-.bg-pricing-card--basic {
-  background-size: cover;
-  background-position: center center; }
-  @media (max-width: 767px) {
-    .bg-pricing-card--basic {
-      background-image: url("../img/backgrounds/pricing-cards/basic_xs@1.jpg"); } }
-  @media (max-width: 767px) {
-    .bg-pricing-card--basic {
-      background-image: url("../img/backgrounds/pricing-cards/basic_sm@1.jpg"); } }
-  @media (min-width: 768px) {
-    .bg-pricing-card--basic {
-      background-image: url("../img/backgrounds/pricing-cards/basic_md@1.jpg"); } }
-  @media (min-width: 1020px) {
-    .bg-pricing-card--basic {
-      background-image: url("../img/backgrounds/pricing-cards/basic_lg@1.jpg"); } }
-  @media (min-width: 1200px) {
-    .bg-pricing-card--basic {
-      background-image: url("../img/backgrounds/pricing-cards/basic_xl@1.jpg"); } }
-
-.bg-pricing-card--comfort {
-  background-size: cover;
-  background-position: center center; }
-  @media (max-width: 767px) {
-    .bg-pricing-card--comfort {
-      background-image: url("../img/backgrounds/pricing-cards/comfort_xs@1.jpg"); } }
-  @media (max-width: 767px) {
-    .bg-pricing-card--comfort {
-      background-image: url("../img/backgrounds/pricing-cards/comfort_sm@1.jpg"); } }
-  @media (min-width: 768px) {
-    .bg-pricing-card--comfort {
-      background-image: url("../img/backgrounds/pricing-cards/comfort_md@1.jpg"); } }
-  @media (min-width: 1020px) {
-    .bg-pricing-card--comfort {
-      background-image: url("../img/backgrounds/pricing-cards/comfort_lg@1.jpg"); } }
-  @media (min-width: 1200px) {
-    .bg-pricing-card--comfort {
-      background-image: url("../img/backgrounds/pricing-cards/comfort_xl@1.jpg"); } }
-
-.bg-pricing-card--premium {
-  background-size: cover;
-  background-position: center center; }
-  @media (max-width: 767px) {
-    .bg-pricing-card--premium {
-      background-image: url("../img/backgrounds/pricing-cards/premium_xs@1.jpg"); } }
-  @media (max-width: 767px) {
-    .bg-pricing-card--premium {
-      background-image: url("../img/backgrounds/pricing-cards/premium_sm@1.jpg"); } }
-  @media (min-width: 768px) {
-    .bg-pricing-card--premium {
-      background-image: url("../img/backgrounds/pricing-cards/premium_md@1.jpg"); } }
-  @media (min-width: 1020px) {
-    .bg-pricing-card--premium {
-      background-image: url("../img/backgrounds/pricing-cards/premium_lg@1.jpg"); } }
-  @media (min-width: 1200px) {
-    .bg-pricing-card--premium {
-      background-image: url("../img/backgrounds/pricing-cards/premium_xl@1.jpg"); } }
-
-/* */
-/* CONTAINERS */
-/* */
-/* */
-/* CONTAINERS */
-/* */
 .bg-title-screen--home {
   background-size: cover;
   background-position: center center; }
@@ -90685,6 +90628,69 @@ picture {
   @media (min-width: 1200px) {
     .bg-title-screen--contacts {
       background-image: url("../img/backgrounds/contacts/title-screen_xl@1.jpg"); } }
+
+/* */
+/* CONTAINERS */
+/* */
+/* */
+/* CONTAINERS */
+/* */
+.bg-pricing-card--basic {
+  background-size: cover;
+  background-position: center center; }
+  @media (max-width: 767px) {
+    .bg-pricing-card--basic {
+      background-image: url("../img/backgrounds/pricing-cards/basic_xs@1.jpg"); } }
+  @media (max-width: 767px) {
+    .bg-pricing-card--basic {
+      background-image: url("../img/backgrounds/pricing-cards/basic_sm@1.jpg"); } }
+  @media (min-width: 768px) {
+    .bg-pricing-card--basic {
+      background-image: url("../img/backgrounds/pricing-cards/basic_md@1.jpg"); } }
+  @media (min-width: 1020px) {
+    .bg-pricing-card--basic {
+      background-image: url("../img/backgrounds/pricing-cards/basic_lg@1.jpg"); } }
+  @media (min-width: 1200px) {
+    .bg-pricing-card--basic {
+      background-image: url("../img/backgrounds/pricing-cards/basic_xl@1.jpg"); } }
+
+.bg-pricing-card--comfort {
+  background-size: cover;
+  background-position: center center; }
+  @media (max-width: 767px) {
+    .bg-pricing-card--comfort {
+      background-image: url("../img/backgrounds/pricing-cards/comfort_xs@1.jpg"); } }
+  @media (max-width: 767px) {
+    .bg-pricing-card--comfort {
+      background-image: url("../img/backgrounds/pricing-cards/comfort_sm@1.jpg"); } }
+  @media (min-width: 768px) {
+    .bg-pricing-card--comfort {
+      background-image: url("../img/backgrounds/pricing-cards/comfort_md@1.jpg"); } }
+  @media (min-width: 1020px) {
+    .bg-pricing-card--comfort {
+      background-image: url("../img/backgrounds/pricing-cards/comfort_lg@1.jpg"); } }
+  @media (min-width: 1200px) {
+    .bg-pricing-card--comfort {
+      background-image: url("../img/backgrounds/pricing-cards/comfort_xl@1.jpg"); } }
+
+.bg-pricing-card--premium {
+  background-size: cover;
+  background-position: center center; }
+  @media (max-width: 767px) {
+    .bg-pricing-card--premium {
+      background-image: url("../img/backgrounds/pricing-cards/premium_xs@1.jpg"); } }
+  @media (max-width: 767px) {
+    .bg-pricing-card--premium {
+      background-image: url("../img/backgrounds/pricing-cards/premium_sm@1.jpg"); } }
+  @media (min-width: 768px) {
+    .bg-pricing-card--premium {
+      background-image: url("../img/backgrounds/pricing-cards/premium_md@1.jpg"); } }
+  @media (min-width: 1020px) {
+    .bg-pricing-card--premium {
+      background-image: url("../img/backgrounds/pricing-cards/premium_lg@1.jpg"); } }
+  @media (min-width: 1200px) {
+    .bg-pricing-card--premium {
+      background-image: url("../img/backgrounds/pricing-cards/premium_xl@1.jpg"); } }
 
 /* */
 /* CONTAINERS */
@@ -91116,6 +91122,42 @@ picture {
   font-weight: 900;
   font-display: swap;
   src: url("../fonts/Lato/Lato-Black.woff") format("woff"), url("../fonts/Lato/Lato-Black.woff2") format("woff2"); }
+
+/* */
+/* CONTAINERS */
+/* */
+.b-radius-1 {
+  border-radius: 1px; }
+
+.b-radius-2 {
+  border-radius: 2px; }
+
+.b-radius-3 {
+  border-radius: 3px; }
+
+.b-radius-4 {
+  border-radius: 4px; }
+
+.b-radius-5 {
+  border-radius: 5px; }
+
+.b-radius-6 {
+  border-radius: 6px; }
+
+.b-radius-7 {
+  border-radius: 7px; }
+
+.b-radius-8 {
+  border-radius: 8px; }
+
+.b-radius-9 {
+  border-radius: 9px; }
+
+.b-radius-10 {
+  border-radius: 10px; }
+
+.b-radius-round {
+  border-radius: 50%; }
 
 /* */
 /* CONTAINERS */
@@ -91588,42 +91630,6 @@ picture {
 @media (min-width: 768px) and (max-width: 1199px) {
   .md-lg\:shadow-2xl {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); } }
-
-/* */
-/* CONTAINERS */
-/* */
-.b-radius-1 {
-  border-radius: 1px; }
-
-.b-radius-2 {
-  border-radius: 2px; }
-
-.b-radius-3 {
-  border-radius: 3px; }
-
-.b-radius-4 {
-  border-radius: 4px; }
-
-.b-radius-5 {
-  border-radius: 5px; }
-
-.b-radius-6 {
-  border-radius: 6px; }
-
-.b-radius-7 {
-  border-radius: 7px; }
-
-.b-radius-8 {
-  border-radius: 8px; }
-
-.b-radius-9 {
-  border-radius: 9px; }
-
-.b-radius-10 {
-  border-radius: 10px; }
-
-.b-radius-round {
-  border-radius: 50%; }
 
 /* */
 /* CONTAINERS */
