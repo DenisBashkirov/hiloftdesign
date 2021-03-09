@@ -33,11 +33,6 @@ body {
   position: relative;
 }
 
-body,
-html {
-  width: 100%;
-}
-
 html {
   font-family: Lato,sans-serif;
   font-size: 16px;
@@ -74,18 +69,6 @@ picture {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-
-
-@media (max-width:1199px) {
-  .xs-lg\:op-50 {
-    opacity: .5;
-  }
-}
-
-.op-90 {
-  opacity: .9;
 }
 
 .flex-start {
@@ -184,6 +167,18 @@ picture {
   }
 }
 
+
+
+@media (max-width:1199px) {
+  .xs-lg\:op-50 {
+    opacity: .5;
+  }
+}
+
+.op-90 {
+  opacity: .9;
+}
+
 .container {
   padding-left: calc(30px / 2);
   padding-right: calc(30px / 2);
@@ -276,6 +271,10 @@ picture {
 
 .top-0 {
   top: 0;
+}
+
+.right-0 {
+  right: 0;
 }
 
 .left-0 {
