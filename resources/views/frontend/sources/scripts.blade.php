@@ -7,4 +7,4 @@
 <script src="{{ asset('libs/jquery.maskedinput/jquery.maskedinput.min.js') }}"></script>
 <script src="{{ asset('libs/jquery.hyphen/jquery.hyphen.ru.min.js') }}" ></script>
 
-<script src="{{ asset('js/frontend.js') }}"></script>
+<script src="{{ asset('js/frontend.js?v=') . md5_file(asset('js/frontend.js')) }}"></script>
