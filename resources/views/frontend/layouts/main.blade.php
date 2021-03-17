@@ -38,8 +38,8 @@
 
     @if(env('APP_ENV') == 'production')
         @include('frontend.sources.services')
-        <link rel="stylesheet" href="{{ asset('css/csscritical.css') }}">
-        <link rel="preload" href="{{ asset('css/frontend.min.css') }}" as="style" onload="this.rel='stylesheet'" media="all">
+        <link rel="stylesheet" href="{{ asset('css/csscritical.css?v=') . md5_file(asset('css/csscritical.css')) }}">
+        <link rel="preload" href="{{ asset('css/frontend.min.css?v=') . md5_file(asset('css/frontend.min.css')) }}" as="style" onload="this.rel='stylesheet'" media="all">
     @else
         <link rel="stylesheet" href="{{ asset('css/frontend.css') }}">
     @endif
