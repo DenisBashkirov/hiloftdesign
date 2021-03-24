@@ -52,6 +52,6 @@
 <!-- End Facebook Pixel Code -->
 
 @if(env('APP_ENV') == 'production')
-    <!-- Jivosite -->
-    <script src="//code.jivosite.com/widget.js" data-jv-id="Fz05T4mdge" async></script>
+    <!-- Venyoo widget -->
+    <script type="text/javascript" src="//api.venyoo.ru/wnew.js?wc=venyoo/default/science&widget_id=6755342139790337"></script>
 @endif
