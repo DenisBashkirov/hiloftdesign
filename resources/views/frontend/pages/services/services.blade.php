@@ -15,7 +15,7 @@
             <div class="pricing-cards-swiper swiper-container">
                 <div class="swiper-wrapper">
 
-                    @component('frontend.components.cards.pricing-card', ['title'=>'Стандарт', 'price'=>'2590', 'bg'=>'basic', 'data_modal'=>'pricing_basic'])
+                    @component('frontend.components.cards.pricing-card', ['title'=>'Стандарт', 'price'=>'2590', 'old_price'=>'3000', 'bg'=>'basic', 'data_modal'=>'pricing_basic'])
                         @slot('options')
                             <li>Обмеры</li>
                             <li>Планировочное решение</li>
@@ -32,7 +32,7 @@
                         @endslot
                     @endcomponent
 
-                    @component('frontend.components.cards.pricing-card', ['title'=>'Комфорт', 'price'=>'3190', 'bg'=>'comfort', 'data_modal'=>'pricing_comfort'])
+                    @component('frontend.components.cards.pricing-card', ['title'=>'Комфорт', 'price'=>'3290', 'old_price'=>'4000', 'bg'=>'comfort', 'data_modal'=>'pricing_comfort'])
                             @slot('options')
                                 <li>Обмеры</li>
                                 <li>Планировочное решение</li>
@@ -49,7 +49,7 @@
                             @endslot
                     @endcomponent
 
-                    @component('frontend.components.cards.pricing-card', ['title'=>'Премиум', 'price'=>'4900', 'bg'=>'premium', 'data_modal'=>'pricing_premium'])
+                    @component('frontend.components.cards.pricing-card', ['title'=>'Премиум', 'price'=>'4990', 'old_price'=>'6500', 'bg'=>'premium', 'data_modal'=>'pricing_premium'])
                             @slot('options')
                                 <li>Обмеры</li>
                                 <li>Планировочное решение</li>
