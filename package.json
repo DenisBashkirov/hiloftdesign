@@ -48,7 +48,7 @@
     "gulp-if": "^3.0.0",
     "gulp-rename": "^2.0.0",
     "purgecss-from-html": "^3.0.0",
-    "swiper": "^5.4.5",
+    "swiper": "^6.5.1",
     "uncss": "^0.17.3",
     "yargs": "^15.4.1"
   },
