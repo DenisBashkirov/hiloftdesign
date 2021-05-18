@@ -1,0 +1,5 @@
+@import "../../../bootstrap"
+
+@each $width in $sizing
+    +breakpoints(max-w-#{$width})
+        max-width: #{$width * $step}
