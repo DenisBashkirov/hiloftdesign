@@ -8,7 +8,7 @@
             <div class="pricing-card__unit font-bold md-xl:text-lg">за кв. метр</div>
         </div>
     </div>
-    <ol class="pricing-card__options-list xs-sm:text-xs sy-3">
+    <ol class="pricing-card__options-list xs-sm:max-w-44 md-xl:max-w-60 xs-sm:pl-4 md-xl:pl-8 xs-sm:text-xs sy-3">
         {{ $options }}
     </ol>
     <div class="button button-white-solid xs-sm:w-full text-sm js-modal-open" data-modal="{{ $data_modal }}">Выбрать</div>
