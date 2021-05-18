@@ -5,7 +5,7 @@
         <div class="pricing-card__pricing mt-3">
             <div class="pricing-card__old-price-value xs-sm:mt-1 font-bold xs-sm:text-xl md-xl:text-xl" style="color:#ec3e3edb"><strike>{{ $old_price }} р</strike></div>
             <div class="pricing-card__price-value xs-sm:mt-1 font-bold xs-sm:text-3xl md-xl:text-4xl">{{ $price }} р</div>
-            <div class="pricing-card__unit font-bold md-xl:text-lg">за кв. метр</div>
+            <div class="pricing-card__unit font-bold md-xl:text-lg">за м<sup>2</sup></div>
         </div>
     </div>
     <ol class="pricing-card__options-list xs-sm:max-w-44 md-xl:max-w-60 xs-sm:pl-4 md-xl:pl-8 xs-sm:text-xs sy-3">
