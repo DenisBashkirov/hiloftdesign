@@ -15,7 +15,7 @@
             <div class="pricing-cards-swiper swiper-container">
                 <div class="swiper-wrapper">
 
-                    @component('frontend.components.cards.pricing-card', ['title'=>'Стандарт', 'price'=>'2890', 'old_price'=>'3500', 'bg'=>'basic', 'data_modal'=>'pricing_basic'])
+                    @component('frontend.components.cards.pricing-card', ['title'=>'Стандарт', 'price'=>'2990', 'old_price'=>'3700', 'bg'=>'basic', 'data_modal'=>'pricing_basic'])
                         @slot('options')
                             <li>Обмеры</li>
                             <li>Планировочное решение</li>
@@ -23,15 +23,15 @@
                             <li>3D визуализации</li>
                             <li>Подбор материалов</li>
                             <li>Строительные чертежи</li>
-                            <li class="op-50">Проведение тендера</li>
-                            <li class="op-50">Контакты поставщиков</li>
+                            <li>Проведение тендера</li>
+                            <li>Контакты поставщиков</li>
                             <li class="op-50">Авторский надзор</li>
                             <li class="op-50">Управление стройкой</li>
                             <li class="op-50">Организация поставки мебели и материалов</li>
                         @endslot
                     @endcomponent
 
-                    @component('frontend.components.cards.pricing-card', ['title'=>'Комфорт', 'price'=>'3950', 'old_price'=>'4500', 'bg'=>'comfort', 'data_modal'=>'pricing_comfort'])
+                    @component('frontend.components.cards.pricing-card', ['title'=>'Комфорт', 'price'=>'3990', 'old_price'=>'4700', 'bg'=>'comfort', 'data_modal'=>'pricing_comfort'])
                         @slot('options')
                             <li>Обмеры</li>
                             <li>Планировочное решение</li>
